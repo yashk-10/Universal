@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+body {
+  scroll-behavior: smooth;
+  width: 1280px;
+  height: 762px;
+}
+
+button {
+  outline: none;
+}
+
+#ready {
+  position: absolute;
+  width: 537px;
+  height: 50px;
+  left: 373px;
+  top: 478px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #100268;
+}
+
+#congrats {
+  position: absolute;
+  width: 545px;
+  height: 60px;
+  left: 370px;
+  top: 196px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+
+  color: #100268;
+}
+
+/* saturn 1 */
+#logo {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 613px;
+  top: 91px;
+}
+
+#group {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: 571px;
+  top: 291px;
+}
+#done {
+  position: absolute;
+  width: 518px;
+  height: 45px;
+  left: 381px;
+  top: 570px;
+
+  background: linear-gradient(90deg, #0c8fd9 0%, #1d0776 100%);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+#done1 {
+  position: absolute;
+  width: 41px;
+  height: 22px;
+  left: 619px;
+  top: 582px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
