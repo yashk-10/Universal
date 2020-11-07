@@ -1,0 +1,307 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  scroll-behavior: smooth;
+}
+
+button {
+  outline: none;
+}
+
+input {
+  outline: none;
+  padding: 15px;
+}
+
+input:focus {
+  border: 1px solid #0b35ca;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 3px rgba(11, 53, 202, 0.1);
+}
+
+#background {
+  position: relative;
+  width: 1280px;
+  height: 762px;
+
+  background: linear-gradient(180deg, #0f003a 0%, #530bca 100%);
+}
+
+#middle {
+  /* Rectangle 1 */
+  position: absolute;
+  width: 522px;
+  height: 424px;
+  left: 379px;
+  top: 184px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#features {
+  position: absolute;
+  width: 73px;
+  height: 25px;
+  left: 182px;
+  top: 42px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+#cases {
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  left: 330px;
+  top: 42px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#pricing {
+  position: absolute;
+  width: 57px;
+  height: 25px;
+  left: 494px;
+  top: 42px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#about {
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  left: 626px;
+  top: 42px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#signUp {
+  position: absolute;
+  width: 158px;
+  height: 45px;
+  left: 1058px;
+  top: 33px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: none;
+  color: white;
+}
+
+#signUp:hover {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  color: #100268;
+  cursor: pointer;
+}
+
+/* Log In */
+#logIn {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 970px;
+  top: 42px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#goodToSeeYou {
+  /* Good to see you again! */
+  position: absolute;
+  width: 283px;
+  height: 36px;
+  left: 417px;
+  top: 217px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #100268;
+}
+
+#youKnowRoutine {
+  /* You know the routine. Just a couple details and you’ll be let back in. */
+  position: absolute;
+  width: 430px;
+  height: 16px;
+  left: 419px;
+  top: 275px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #100268;
+}
+
+#emailAddress {
+  /* EMAIL ADDRESS */
+  position: absolute;
+  width: 95px;
+  height: 16px;
+  left: 419px;
+  top: 320px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #100268;
+}
+
+#emailInput {
+  /* Rectangle 2 */
+  position: absolute;
+  width: 443px;
+  height: 45px;
+  left: 419px;
+  top: 344px;
+
+  background: #ffffff;
+  border: 0.5px solid #100268;
+  border-radius: 5px;
+}
+
+#password {
+  /* PASSWORD */
+  position: absolute;
+  width: 67px;
+  height: 16px;
+  left: 419px;
+  top: 418px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #100268;
+}
+
+#passwordInput {
+  /* Rectangle 3 */
+  position: absolute;
+  width: 443px;
+  height: 45px;
+  left: 419px;
+  top: 441px;
+
+  border: 0.5px solid #100268;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#universalLogIn {
+  /* Rectangle 5 */
+  position: absolute;
+  width: 443px;
+  height: 45px;
+  left: 419px;
+  top: 508px;
+
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(90deg, #530bca 0%, #100268 100%);
+  border-radius: 5px;
+  border: 1px;
+  border-color: linear-gradient(90deg, #07c8a5 0%, #100268 100%);
+  color: white;
+}
+
+#universalLogIn:hover {
+  font-family: "Poppins", sans-serif;
+  background: #530bca;
+  color: white;
+  cursor: pointer;
+}
+
+#termsConditions {
+  /* By signing in, you agree to our terms and conditions. */
+  position: absolute;
+  width: 450px;
+  height: 19px;
+  left: 425px;
+  top: 678px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: white;
+}
+
+#alreadyHaveAccount {
+  /* Don’t yet have an account? Log in. */
+  position: absolute;
+  width: 240px;
+  height: 19px;
+  left: 529px;
+  top: 573px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #1d0776;
+}
