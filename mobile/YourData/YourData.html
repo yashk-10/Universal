@@ -25,7 +25,6 @@
             <h5 id='homeAddress'>HOME ADDRESS</h5>
             <h5 id='phoneNumber'>PHONE NUMBER</h5>
             <h5 id='emergencyContact'>EMERGENCY CONTACT NUMBER</h5>
-            <h5 id='emergencyContactNumber'>EMERGENCY CONTACT NUMBER</h5>
             <form>
                 <input id='firstNameInput'></input>
                 <input id='lastNameInput' ></input>
@@ -33,18 +32,19 @@
                 <input id='homeAddressInput'></input>
                 <input id='phoneNumberInput'></input>
                 <input id='emergencyContactInput'></input>
+                <button onclick="saveDetails()"id='saveButton'>Save</button>
             </form>
         </div>
         <div id="bottomDiv" class='bottomDiv'>
-            <a href=#>
+            <a href="../Sign Up/activityPage.html">
                 <h1 id="activity" style="font-weight: bold;">Activity</h1>
                 <img id="activityLogo" src="navActivity1.svg" />
             </a>
-            <a href=#>
+            <a href='YourData.html'>
                 <h1 id="yourData1" style="font-weight: bold;">Your Data</h1>
-                <img id="yourDataLogo" src="navYourData1.svg" />
+                <img id="yourDataLogo" src="navYourData.svg" />
             </a>
-            <a href=#>
+            <a href='../Request/request.html'>
                 <h1 id="requests">Requests</h1>
                 <img id="requestsLogo" src="navRequests.svg" />
             </a>
@@ -54,6 +54,27 @@
             </a>
         </div>
     </div>
-  <script src="js/scripts.js"></script>
+  <script src="../Sign Up/SignUpPage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+
+<!--FIrebase SDKs-->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
+  <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCD7KZA8wKHeyoq6beiQnFETxucRMuoXLM",
+    authDomain: "universal-8aec4.firebaseapp.com",
+    databaseURL: "https://universal-8aec4.firebaseio.com",
+    projectId: "universal-8aec4",
+    storageBucket: "universal-8aec4.appspot.com",
+    messagingSenderId: "440414088827",
+    appId: "1:440414088827:web:eb218545b1ab137abefcde"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var auth = firebase.auth();
+  var db = firebase.firestore();
+  </script>
 </body>
 </html>

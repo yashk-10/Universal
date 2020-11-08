@@ -12,11 +12,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body onload='setSnapshot()'>
     <div>
         <h1 id="activityPage">Acitivity Page</h1>
         <div id="codeDiv">
-            <h1 id="codeG">X    2    Y    G    B    Q</h1>
+            <h1 id="codeG">X       2      Y      G      B</h1>
         </div>
         <h1 id="activityText">Here’s your current <span style="font-weight: bold;">transfer code.</span> Once you arrive at an organization, show them this code in order to transfer information. This code <span style="font-weight: bold;">changes every 30 minutes</span> and every time you accept a request.</h1>
         <h1 id="pending">Pending Requests</h1>
@@ -27,25 +27,49 @@
     </div>
 
     <div id="bottomDiv">
-        <a href=#>
+        <a href="activityPage.html">
             <h1 id="activity" style="font-weight: bold;">Activity</h1>
             <img id="activityLogo" src="navActivity.svg" />
         </a>
-        <button onClick="databaseGo()">
+        <a href='../YourData/YourData.html'>
             <h1 id="yourData">Your Data</h1>
             <img id="yourDataLogo" src="navYourData.svg" />
-        </button>
-        <button onClick="requestsGo()">
+        </a>
+        <a href='../Request/request.html'>
             <h1 id="requests">Requests</h1>
             <img id="requestsLogo" src="navRequests.svg" />
-        </button>
-        <button>
+        </a>
+        <a>
             <h1 id="settings">Settings</h1>
             <img id="settingsLogo" src="navSettings.svg" />
-        </button>
+        </a>
 
 
     </div>
-    <script src="activityPage.js"></script>
+    <script src="SignUpPage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+        var firebaseConfig = {
+        apiKey: "AIzaSyCD7KZA8wKHeyoq6beiQnFETxucRMuoXLM",
+        authDomain: "universal-8aec4.firebaseapp.com",
+        databaseURL: "https://universal-8aec4.firebaseio.com",
+        projectId: "universal-8aec4",
+        storageBucket: "universal-8aec4.appspot.com",
+        messagingSenderId: "440414088827",
+        appId: "1:440414088827:web:80134724d79b2b9fbefcde"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+    </script>
 </body>
 </html>

@@ -450,7 +450,7 @@ input {
   color: #100268;
 }
 
-.accept {
+#accept {
   position: absolute;
   width: 344px;
   height: 43px;
@@ -468,12 +468,19 @@ input {
   /* identical to box height */
 
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 
   color: #ffffff;
   cursor: pointer;
 }
 
-.accept:hover {
-  background-color: #23a78e;
+#accept:hover {
+  background: #23a78e;
   cursor: pointer;
+}
+
+.accept:focus {
+  background-color: #07c8a5;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 4px rgba(11, 202, 106, 0.185);
 }
