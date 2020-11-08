@@ -1,366 +1,365 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-    overflow: hidden;
-  }
-  
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
 button {
-    outline: none;
-  }
-  
+  outline: none;
+}
+
 input {
-    outline: white;
-    padding: 15px;
-    background: none;
-    color: white;
-  }
-  
+  outline: white;
+  padding: 15px;
+  background: none;
+  color: white;
+}
+
 input:focus {
-    border: 1px solid #0b35ca;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 0px 3px rgba(11, 53, 202, 0.1);
-  }
-  
-
-body{
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(180deg, #0A0141 0%, #100268 95.83%);
-    border-radius: 20px;
+  border: 1px solid #0b35ca;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 3px rgba(11, 53, 202, 0.1);
 }
 
-#title{
-    position: absolute;
-    width: 212px;
-    height: 42px;
-    left: 31px;
-    top: 37px;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 42px;
-    /* identical to box height */
-    
-    text-align: center;
-    
-    color: #FFFFFF;
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #0a0141 0%, #100268 95.83%);
+  border-radius: 20px;
 }
 
-#bottomDiv{
-    position: absolute;
-    width: 100%;
-    height: 10%;
-    top:90%;
-    left: 0%;
-    background: white;
+#title {
+  position: absolute;
+  width: 212px;
+  height: 42px;
+  left: 31px;
+  top: 37px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
 }
 
-
-#activity{
-    position: absolute;
-    left: 9.93%;
-    right: 80.15%;
-    top: 58.11%;
-    bottom: 21.62%;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 15px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: rgba(17, 3, 107, 0.5);
+#bottomDiv {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 90%;
+  left: 0%;
+  background: white;
 }
 
-#activityLogo{
-    position: absolute;
-    left: 12.59%;
-    right: 82.57%;
-    bottom: 38px;
+#activity {
+  position: absolute;
+  left: 9.93%;
+  right: 80.15%;
+  top: 58.11%;
+  bottom: 21.62%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(17, 3, 107, 0.5);
 }
 
-#yourData{
-    position: absolute;
-    width: 144px;
-    height: 42px;
-    left: 31px;
-    top: 35px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 42px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color:white;
-
+#activityLogo {
+  position: absolute;
+  left: 12.59%;
+  right: 82.57%;
+  bottom: 38px;
 }
 
-#yourDataLogo{
-    position: absolute;
-    left: 35.11%;
-    right: 60.05%;
-    top: 22.58%;
-    bottom: 5.01%;
+#yourData {
+  position: absolute;
+  width: 144px;
+  height: 42px;
+  left: 31px;
+  top: 35px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: white;
 }
 
-#requests{
-    position: absolute;
-    left: 57.14%;
-    right: 31.72%;
-    top: 58.11%;
-    bottom: 21.62%;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 15px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: rgba(17, 3, 107, 0.5);
-
+#yourDataLogo {
+  position: absolute;
+  left: 35.11%;
+  right: 60.05%;
+  top: 22.58%;
+  bottom: 5.01%;
 }
 
-#requestsLogo{
+#requests {
+  position: absolute;
+  left: 57.14%;
+  right: 31.72%;
+  top: 58.11%;
+  bottom: 21.62%;
 
-position: absolute;
-left: 60.77%;
-right: 34.87%;
-top: 22.97%;
-bottom: 50%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(17, 3, 107, 0.5);
 }
 
-#settings{
-    position: absolute;
-left: 78.93%;
-right: 11.38%;
-top: 56.76%;
-bottom: 22.97%;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 10px;
-line-height: 15px;
-/* identical to box height */
-
-text-align: center;
-
-color: rgba(17, 3, 107, 0.5);
-
+#requestsLogo {
+  position: absolute;
+  left: 60.77%;
+  right: 34.87%;
+  top: 22.97%;
+  bottom: 50%;
 }
 
-#settingsLogo{
-    position: absolute;
-    left: 81.6%;
-    right: 13.56%;
-    top: 21.62%;
-    bottom: 51.35%;
+#settings {
+  position: absolute;
+  left: 78.93%;
+  right: 11.38%;
+  top: 56.76%;
+  bottom: 22.97%;
 
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(17, 3, 107, 0.5);
 }
 
-#dataUpdate1{
-    position: absolute;
-    width: 118px;
-    height: 16px;
-    left: 98px;
-    top: 135px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 16px;
-
-    color: #FFFFFF;
+#settingsLogo {
+  position: absolute;
+  left: 81.6%;
+  right: 13.56%;
+  top: 21.62%;
+  bottom: 51.35%;
 }
 
-#dataUpdate2{
-    position: absolute;
-    width: 118px;
-    height: 16px;
-    left: 98px;
-    top: 317px;
+#dataUpdate1 {
+  position: absolute;
+  width: 118px;
+  height: 16px;
+  left: 98px;
+  top: 135px;
 
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 16px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
-#yourData1{
-    position: absolute;
-    left: 28.5%;
-    right: 56.66%;
-    top: 58.11%;
-    bottom: 21.62%;
-    width: 75px;
+#dataUpdate2 {
+  position: absolute;
+  width: 118px;
+  height: 16px;
+  left: 98px;
+  top: 317px;
 
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 15px;
-    /* identical to box height */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
 
-    text-align: center;
-    color: blue;
+  color: #ffffff;
 }
 
-#submit{
-    position: absolute;
-    width: 352px;
-    height: 43px;
-    left: 31px;
-    top: 466px;
-    
-    background: #07C8A5;
-    border-radius: 5px;
-    color: white;
+#yourData1 {
+  position: absolute;
+  left: 28.5%;
+  right: 56.66%;
+  top: 58.11%;
+  bottom: 21.62%;
+  width: 75px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  color: rgba(17, 3, 107, 0.5);
 }
 
-#submit:hover{
-    cursor:pointer;
-    background: #039c80
+#submit {
+  outline: none;
+  border: none;
+  position: absolute;
+  width: 352px;
+  height: 43px;
+  left: 31px;
+  top: 466px;
+
+  background: #07c8a5;
+  border-radius: 5px;
+  color: white;
 }
 
-#aspirinCount{
-    position: absolute;
-    width: 182px;
-    height: 27px;
-    left: 98px;
-    top: 108px;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
-    
-    
-    color: #FFFFFF;
+#submit:hover {
+  cursor: pointer;
+  background: #09b999;
 }
 
-#covidSymbol{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 31px;
-    top: 110px;
+#submit:focus {
+  cursor: pointer;
+  background: #07c8a5;
+  box-shadow: 0px 0px 0px 3px rgba(109, 255, 165, 0.322);
 }
 
-#covidSymbol2{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 31px;
-    top: 292px;
+#aspirinCount {
+  position: absolute;
+  width: 182px;
+  height: 27px;
+  left: 98px;
+  top: 108px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ffffff;
 }
 
-#bottleNo{
-    position: absolute;
-    width: 252px;
-    height: 16px;
-    left: 31px;
-    top: 191px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
+#covidSymbol {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 31px;
+  top: 110px;
 }
 
-#aspirinInput{
-    position: absolute;
-    width: 352px;
-    height: 42px;
-    left: 31px;
-    top: 217px;
-    
-    border: 1px solid #FFFFFF;
-    border-radius: 5px;
+#covidSymbol2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 31px;
+  top: 292px;
 }
 
-#vitInput{
-    position: absolute;
-    width: 352px;
-    height: 42px;
-    left: 31px;
-    top: 391px;
+#bottleNo {
+  position: absolute;
+  width: 252px;
+  height: 16px;
+  left: 31px;
+  top: 191px;
 
-    border: 1px solid #FFFFFF;
-    border-radius: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
-#dataUpdate{
-    position: absolute;
-    width: 118px;
-    height: 16px;
-    left: 98px;
-    top: 135px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 16px;
-    
-    color: #FFFFFF;
+#aspirinInput {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 31px;
+  top: 217px;
+
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 }
-#VitD{
-    position: absolute;
-    width: 214px;
-    height: 27px;
-    left: 98px;
-    top: 290px;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
-    
-    
-    color: #FFFFFF;
+
+#vitInput {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 31px;
+  top: 391px;
+
+  border: 1px solid #ffffff;
+  border-radius: 5px;
 }
-#VitD2{
-    position: absolute;
-    width: 269px;
-    height: 16px;
-    left: 31px;
-    top: 365px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
+
+#dataUpdate {
+  position: absolute;
+  width: 118px;
+  height: 16px;
+  left: 98px;
+  top: 135px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+#VitD {
+  position: absolute;
+  width: 214px;
+  height: 27px;
+  left: 98px;
+  top: 290px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+#VitD2 {
+  position: absolute;
+  width: 269px;
+  height: 16px;
+  left: 31px;
+  top: 365px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
