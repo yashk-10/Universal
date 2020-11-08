@@ -55,6 +55,12 @@ function saveDetails(){
             emergencyContactNumber: emergCont
     }, { merge: true })
     .then(function() {
+        document.getElementById('firstNameInput').value = fname;
+        document.getElementById('lastNameInput').value = lname;
+        document.getElementById('emailAddressInput').value = emailAdd;
+        document.getElementById('homeAddressInput').value = homeAdd;
+        document.getElementById('phoneNumberInput').value = phoneNum;
+        document.getElementById('emergencyContactInput').value = emergCont;
         document.getElementById('saveButton').innerHTML = 'Data Saved';
         
     })
@@ -81,7 +87,16 @@ function updateCustomerDB(){
         customerAccepted: true
     })
     .then(function() {
-        window.location.href = '../InfoTransferred/InfoTransferred.html';
+        db.collection('middle').doc('states').update({
+            databaseOn: true
+        })
+        .then(function() {
+            window.location.href = '../InfoTransferred/InfoTransferred.html';
+        })
+        .catch(function(error) {
+            // The document probably doesn't exist.
+            console.error("Error updating document: ", error);
+        });
     })
     .catch(function(error) {
         // The document probably doesn't exist.
