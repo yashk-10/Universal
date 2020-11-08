@@ -1,0 +1,421 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+    width: 1000px;
+    height: 762px;
+    left: -0px;
+    background: linear-gradient(0deg, #100268, #100268);;
+  }
+button {
+    outline: none;
+  }
+  
+input {
+    outline: none;
+    padding: 15px;
+  }
+  
+input:focus {
+    border: 1px solid #0b35ca;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 3px rgba(11, 53, 202, 0.1);
+  }
+
+#bottomDiv{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom: 0%;
+    top: 90%;
+    left: 0%;
+    background: white;
+}
+
+#activity{
+    position: absolute;
+    left: 9.93%;
+    right: 80.15%;
+    top: 58.11%;
+    bottom: 21.62%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(16, 2, 104, 0.5);
+}
+
+#activityLogo{
+    position: absolute;
+    left: 12.59%;
+    right: 82.57%;
+    top: 27.28%;
+    bottom: 5%;
+}
+
+#yourData1{
+    position: absolute;
+    left: 28.5%;
+    right: 56.66%;
+    top: 58.11%;
+    bottom: 21.62%;
+    width: 75px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    color: rgba(16, 2, 104, 0.5);
+}
+
+#yourDataLogo{
+    position: absolute;
+    left: 145px;
+    right: 248;
+    top: 17px;
+    bottom: 37px;
+}
+
+#requests{
+    position: absolute;
+    left: 57.14%;
+    right: 31.72%;
+    top: 58.11%;
+    bottom: 21.62%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    color: rgba(16, 2, 104, 0.5);
+}
+
+#requestsLogo{
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    left: 251px;
+    top: 27.28%;
+}
+
+#settings{
+    position: absolute;
+    left: 78.93%;
+    right: 11.38%;
+    top: 57.5%;
+    bottom: 22.97%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(16, 2, 104, 0.5);
+}
+
+#settingsLogo{
+    position: absolute;
+    left: 81.6%;
+    right: 13.56%;
+    top: 27.28%;
+    bottom: 5.15%;
+
+}
+
+
+#title{
+    position: absolute;
+    width: 109px;
+    height: 42px;
+    left: 31px;
+    top: 36px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#mid{
+    position: absolute;
+    width: 352px;
+    height: 28px;
+    left: 31px;
+    top: 90px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+#checkMark{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 147px;
+    top: 197px;
+}
+#prodsales{
+    position: absolute;
+    left: -31px;
+    right: 35.54%;
+    top: 25.88%;
+    bottom: 70.46%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+/* identical to box height */
+
+    text-align: center;
+
+    position: absolute;
+    left: 7.51%;
+    right: 7.26%;
+    top: 24.25%;
+    bottom: 66.94%;
+    width: 352px;
+
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-radius: 5px;
+}
+
+#prodText{
+    position: absolute;
+    left: 26.39%;
+    right: 29.54%;
+    top: 25.88%;
+    bottom: 70.46%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #100268;
+}
+
+#employeeInt1{
+    position: absolute;
+    left: 26.39%;
+    right: 29.06%;
+    top: 29.4%;
+    bottom: 68.7%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #100268;    
+}
+#medsales{
+    position: absolute;
+    left: 26.39%;
+    right: 25.91%;
+    top: 37.4%;
+    bottom: 58.94%;
+    width: 90%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+    
+    position: absolute;
+    left: 7.51%;
+    right: 7.26%;
+    top: 35.77%;
+    bottom: 55.42%;
+    
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-radius: 5px;
+}
+
+#medText{
+    position: absolute;
+    left: 26.39%;
+    right: 25.91%;
+    top: 37.4%;
+    bottom: 58.94%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #100268;
+}
+
+#employeeInt2{
+    position: absolute;
+    left: 26.39%;
+    right: 29.06%;
+    top: 40.92%;
+    bottom: 57.18%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #100268;
+}
+
+#productCirc{
+    position: absolute;
+    left: 15.74%;
+    right: 80.87%;
+    top: 27.78%;
+    bottom: 70.33%;
+}
+
+#medLock{
+    position: absolute;
+    left: 15.25%;
+    right: 80.39%;
+    top: 38.75%;
+    bottom: 58.54%;
+}
+
+#productArrow{
+    position: absolute;
+    left: 86.92%;
+    right: 10.17%;
+    top: 27.64%;
+    bottom: 71.54%;
+    
+}
+
+#medArrow{
+    position: absolute;
+    left: 86.92%;
+    right: 10.17%;
+    top: 39.16%;
+    bottom: 60.03%;
+
+}
+.back {
+    position: absolute;
+    width: 352px;
+    height: 65px;
+    left: 31px;
+    top: 264px;
+  
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .rexlogo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 25px;
+    top: 14px;
+  }
+  
+  .placename {
+    position: absolute;
+    width: 220px;
+    height: 21px;
+    left: 44px;
+    top: 10px;
+  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #100268;
+  
+    color: #100268;
+  }
+  
+  .placething {
+    position: absolute;
+    width: 198px;
+    height: 15px;
+    left: 67px;
+    top: 35px;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+  
+    text-align: center;
+    text-transform: uppercase;
+  
+    color: #100268;
+  }
+  
+  .arrow {
+    position: absolute;
+    left: 88.92%;
+    right: 10.17%;
+    top: 42.12%;
+    bottom: 75.07%;
+  }
