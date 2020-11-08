@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: linear-gradient(180deg, #0f003a 0%, #0b35ca 100%);
+  background: linear-gradient(180deg, #0F003A 0%, #0B35CA 100%);
   height: 100vh;
 }
 
@@ -21,13 +21,6 @@ button {
 
 input {
   outline: none;
-  padding: 15px;
-}
-
-input:focus {
-  border: 1px solid #0b35ca;
-  box-sizing: border-box;
-  box-shadow: 0px 0px 0px 3px rgba(11, 53, 202, 0.1);
 }
 
 header {
@@ -70,38 +63,38 @@ nav {
   flex: 7;
   justify-content: flex-end;
 }
-.btn-login {
-  margin-left: 10px;
-  border: none;
-  color: #ffffff;
-  padding: 14px 48px;
-  text-align: center;
+
+#logIn{
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 970px;
+  top: 28px;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
   text-decoration: none;
-  font-size: 14px;
-  background-color: transparent;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.btn-login:hover {
-  color: #ffffff !important;
-  background: transparent;
-  border: 1px solid #e4e4e4 !important;
-  transition: all 0.4s ease 0s;
-  cursor: pointer;
+  color: #ffffff;
 }
 
 .btn-signup {
-  margin-left: 30px;
-  color: #ffffff;
-  padding: 14px 48px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 14px;
-  background-color: transparent;
-  border: 1px solid #e4e4e4;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 158px;
+  height: 45px;
+  left: 1058px;
+  top: 18px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
   border-radius: 5px;
-  cursor: pointer;
+  background: none;
+  color: white;
 }
 
 .btn-signup:hover {
@@ -200,7 +193,6 @@ nav {
   font-weight: 300;
   font-size: 12px;
   line-height: 16px;
-  margin-top: 6px;
 
   color: #100268;
 }
@@ -211,7 +203,7 @@ nav {
   margin: auto;
 }
 
-.inputemail {
+#inputemail {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -220,37 +212,24 @@ nav {
   border-radius: 5px;
   box-sizing: border-box;
 }
+.inputemail:focus {
+  background-color: #412ada38;
+}
 
-.inputpassword {
-  width: 98%;
+#inputpassword {
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   background: #ffffff;
   border: 0.5px solid #100268;
   border-radius: 5px;
   box-sizing: border-box;
-  margin-top: 20px;
-  margin-left: -65px;
+}
+.inputpassword:focus {
+  background-color: #412ada38;
 }
 
 .inputcfnpassword {
-  width: 98%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  background: #ffffff;
-  border: 0.5px solid #100268;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin-top: 20px;
-  margin-left: -135px;
-}
-
-.pass {
-  display: flex;
-  width: 100%;
-}
-
-.inputorg {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -260,7 +239,11 @@ nav {
   box-sizing: border-box;
 }
 
-.emp-email {
+.inputcfnpassword:focus {
+  background-color: #412ada38;
+}
+
+.org-email {
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -270,7 +253,7 @@ nav {
   color: #100268;
 }
 
-.emp-password {
+.org-password {
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -280,8 +263,7 @@ nav {
   color: #100268;
 }
 
-.emp-cfnpassword {
-  width: 350px;
+.org-cfnpassword {
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -289,36 +271,20 @@ nav {
   text-align: center;
 
   color: #100268;
-}
-
-.emp-org {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 16px;
-
-  color: #100268;
-  display: flex;
 }
 
 .signup {
   width: 100%;
   height: 40px;
-  background: linear-gradient(90deg, #0c8fd9 0%, #100268 100%);
+  background: linear-gradient(90deg, #0B35CA 0%, #1D0776 100%);
   border-radius: 5px;
   border: none;
-  border-radius: 5px;
   color: #ffffff;
   margin-top: 20px;
   cursor: pointer;
 }
 
-.signup:focus {
-  font-weight: 600;
-  background-color: #0b35ca;
-}
-
-.emp-login {
+.org-login {
   width: 100%;
   margin: auto;
   font-style: normal;

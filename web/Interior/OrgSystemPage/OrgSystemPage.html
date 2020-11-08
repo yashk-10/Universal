@@ -22,18 +22,18 @@
         <img src="activity1.svg" id='activityImage1'>
         <button id = "activity1" ></button>
         <img src="activity2.svg" id='activityImage2'>
-        <a id ="system" href = #>System View</a>
+        <button id ="system">System View</button>
         <img src="systemView.svg" id='sysimg'>
-        <a id='database' href = #>Database</a>
+        <button id='database'>Database</button>
         <img src="database.svg" id='dataimg'>
-        <a id='employeeList' href = #>Employee List</a>
+        <button id='employeeList'>Employee List</button>
         <img src="employeeList.svg" id='employeeimg'>
-        <a id='customers' href = #>Customers</a> 
+        <button id='customers'>Customers</button> 
         <img src="customers.svg" id='customersimg'>
         <h5 id="vincent">Vincent Williams</h5>
         <img src="profilePic.svg" id='profileimg'>
         <h5 id="admin">System Administrator </h5>
-    </div>
+    </div> 
     <div id ="top" class="top">
         <img src="menu.svg" id='menu'>
         <h5 id='administrative'>Administrative Account</h5>
@@ -47,22 +47,14 @@
         <button id='newReq' src="newRequest.svg" onClick="newSystemComponent()">New System Component</button>
         <img id = 'sadFace' src="sadFace.svg">
         </div>
+        <button onClick="databaseRouter()"><img id="cusEntry" src="customerEntryButton.svg"/></button>
+
     <div id = "middle1">
       <h5 id = "intcomp">Employee Interaction Components</h5>
-        <h5 id = "cuscomp">Customer Interaction Components</h5>
-        <h5 id = 'custData'>Customer Data Sheet</h5>
-        <h5 id = 'custInt'>CUSTOMER INTERACTION - LAST UPDATED 4:54 PM</h5>
-        <h5 id = 'currentActive'>Currently Active</h5>
-        <h5 id = 'dataField'> 14 DATA FIELDS FILLED</h5>
-        <button id='accessData' onClick="databaseRouter()">Access Database</button>
-    </div>
-    <div id = "middle2">
-        <h5 id = 'prodSales'>Product Sales Components</h5>
-        <h5 id = 'custInt2'>CUSTOMER INTERACTION - LAST UPDATED 4:54 PM</h5>
-        <h5 id = 'currentActive2'>Currently Active</h5>
-        <h5 id = 'dataField2'> 14 DATA FIELDS FILLED</h5>
-        <button id='accessData2' onClick="databaseRouter()">Access Database</h5>
-
+      <h5 id = "cuscomp">Customer Interaction Components</h5>
+        <button onClick="databaseRouter()"><img id="cusEntry" src="customerEntryButton.svg"/></button>
+        <button id='accessDB'onclick='databaseRouter()'>Access Database</button>
+        <img id="cusIntComp" src="cusIntComp.svg"/>
     </div>
   </div>
   <div id="security">
@@ -110,9 +102,9 @@
     <input id="compNameInput" />
     <h1 id="secLevel">SECURITY LEVEL</h1>
     <button id="secComp">Secure Component</button>
-    <button id="openComp">Open Component</button>
+    <button onclick="openComp()"id="openComp">Open Component</button>
     <h1 id="dataTitle">DATA INPUT TYPE</h1>
-    <button id="textInputButton">Text Input</button>
+    <button onclick="textComp()"id="textInputButton">Text Input</button>
     <button id="fileInputButton">File Input Button</button>
     <button id="nextButton" onClick="nextButton()">Next</button>
 </div>
@@ -122,7 +114,7 @@
     <img id="compCompleteLogo" src="compComplete.svg"/>
     <h1 id="compCompleteTitle">Component Creation Complete</h1>
     <h1 id="compCompleteText">Great! You just created a component that can be used to collect data from your customers and employees.</h1>
-    <button id="doneButton" onClick="closer()">Done</button>
+    <button id="doneButton" onClick="doneFunc()">Done</button>
 </div>
 
 <div id="databaseEntry4">

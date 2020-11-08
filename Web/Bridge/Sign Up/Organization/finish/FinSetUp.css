@@ -72,10 +72,14 @@ body {
   left: 381px;
   top: 622px;
 
-  background: linear-gradient(90deg, #530bca 0%, #1d0776 100%);
+  background: linear-gradient(90deg, #0B35CA 0%, #1D0776 100%);
   border-radius: 5px;
   outline: none;
   border: none;
+}
+
+#done:hover{
+  box-shadow: 0px 0px 10px 0.5px rgba(11, 53, 202, 0.22);
 }
 
 #done1 {
@@ -104,7 +108,8 @@ body {
   left: 381px;
   top: 587px;
 
-  background: #530bca;
+  background: #0B35CA;
+  ;
   border-radius: 5px;
 }
 
@@ -115,7 +120,7 @@ body {
   left: 558px;
   top: 587px;
 
-  background: #530bca;
+  background: #0B35CA;
   border-radius: 5px;
 }
 
@@ -126,12 +131,11 @@ body {
   left: 735px;
   top: 587px;
 
-  background: #530bca;
+  background: #0B35CA;
   border-radius: 5px;
 }
 #finish {
   position: absolute;
-  width: 68px;
   height: 16px;
   left: 606px;
   top: 558px;

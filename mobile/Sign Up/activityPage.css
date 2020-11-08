@@ -1,257 +1,246 @@
-body{
-    width: 100%;
-    height: 100vh;
-    background: white;
-    border-radius: 20px;
+body {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  border-radius: 20px;
 }
 
-#activityPage{
-    position: absolute;
-width: 201px;
-height: 42px;
-left: 31px;
-top: 36px;
+#activityPage {
+  position: absolute;
+  width: 201px;
+  height: 42px;
+  left: 31px;
+  top: 36px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 42px;
-/* identical to box height */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #100268;
+  color: #100268;
 }
 
-#activityText{
-    position: absolute;
-width: 344px;
-height: 42px;
-left: 32px;
-top: 174px;
+#activityText {
+  position: absolute;
+  width: 344px;
+  height: 42px;
+  left: 32px;
+  top: 174px;
 
-font-family: Open Sans;
-font-style: normal;
-font-weight: 300;
-font-size: 10px;
-line-height: 14px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 14px;
 
-color: #100268;
+  color: #100268;
 }
 
-#codeG{
-    position: absolute;
-    width: 282px;
-    height: 36px;
-    left: 106px;
-    top: 5px;
+#codeG {
+  position: absolute;
+  width: 222px;
+  height: 36px;
+  left: 118px;
+  top: 5px;
 
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    /* identical to box height */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
 
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
-#codeDiv{
-    position: absolute;
-    width: 344px;
-    height: 50px;
-    left: 32px;
-    top: 104px;
+#codeDiv {
+  position: absolute;
+  width: 344px;
+  height: 50px;
+  left: 32px;
+  top: 104px;
 
-    background: #0B35CA;
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
+  background: #0b35ca;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 }
 
-#pending{
-    position: absolute;
-width: 146px;
-height: 24px;
-left: 31px;
-top: 279px;
+#pending {
+  position: absolute;
+  width: 146px;
+  height: 24px;
+  left: 31px;
+  top: 279px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #100268;
+  color: #100268;
 }
 
-#pendingComp{
-    position: absolute;
-    top: 320px;
-    width: 85%;
-    left: 7.5%;
-    
+#pendingComp {
+  position: absolute;
+  top: 320px;
+  width: 85%;
+  left: 7.5%;
 }
 
-#requestHistory{
+#requestHistory {
+  position: absolute;
+  width: 128px;
+  height: 24px;
+  left: 32px;
+  top: 420px;
 
-position: absolute;
-width: 128px;
-height: 24px;
-left: 32px;
-top: 420px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
 
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
+  text-align: center;
 
-text-align: center;
-
-color: #100268;
+  color: #100268;
 }
 
-#requestComp{
-    position: absolute;
-    width: 90%;
-    top: 460px;
-    left: 5%;
-    display: none;
+#requestComp {
+  position: absolute;
+  width: 90%;
+  top: 460px;
+  left: 5%;
+  display: none;
 }
 
-#recentRequests{
-    position: absolute;
-    width: 85%;
-    top: 460px;
-    left: 7.5%;
+#recentRequests {
+  position: absolute;
+  width: 85%;
+  top: 460px;
+  left: 7.5%;
 }
 
-#bottomDiv{
-    position: absolute;
-    width: 100%;
-    height: 10%;
-    top:90%;
-    background: linear-gradient(180deg, #0A0141 0%, #100268 95.83%);
+#bottomDiv {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  top: 90%;
+  background: linear-gradient(180deg, #0a0141 0%, #100268 95.83%);
 }
 
+#activity {
+  position: absolute;
+  left: 9.93%;
+  right: 80.15%;
+  top: 58.11%;
+  bottom: 21.62%;
 
-#activity{
-    position: absolute;
-    left: 9.93%;
-    right: 80.15%;
-    top: 58.11%;
-    bottom: 21.62%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
 
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 15px;
-    /* identical to box height */
+  text-align: center;
 
-    text-align: center;
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
-#activityLogo{
-    position: absolute;
-left: 12.59%;
-right: 82.57%;
-top: 22.97%;
-bottom: 50%;
-
+#activityLogo {
+  position: absolute;
+  left: 12.59%;
+  right: 82.57%;
+  top: 22.97%;
+  bottom: 50%;
 }
 
-#yourData{
-    position: absolute;
-    left: 31.48%;
-    right: 56.66%;
-    top: 58.11%;
-    bottom: 21.62%;
+#yourData {
+  position: absolute;
+  left: 31.48%;
+  right: 56.66%;
+  top: 58.11%;
+  bottom: 21.62%;
 
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 15px;
-    /* identical to box height */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
 
-    text-align: center;
+  text-align: center;
 
-    color: rgba(255, 255, 255, 0.5);
-
+  color: rgba(255, 255, 255, 0.5);
 }
 
-#yourDataLogo{
-    position: absolute;
-left: 35.11%;
-right: 60.05%;
-top: 22.97%;
-bottom: 50%;
-
+#yourDataLogo {
+  position: absolute;
+  left: 35.11%;
+  right: 60.05%;
+  top: 22.97%;
+  bottom: 50%;
 }
 
-#requests{
-    position: absolute;
-left: 57.14%;
-right: 31.72%;
-top: 58.11%;
-bottom: 21.62%;
+#requests {
+  position: absolute;
+  left: 57.14%;
+  right: 31.72%;
+  top: 58.11%;
+  bottom: 21.62%;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 10px;
-line-height: 15px;
-/* identical to box height */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: rgba(255, 255, 255, 0.5);
-
+  color: rgba(255, 255, 255, 0.5);
 }
 
-#requestsLogo{
-
-position: absolute;
-left: 60.77%;
-right: 34.87%;
-top: 22.97%;
-bottom: 50%;
+#requestsLogo {
+  position: absolute;
+  left: 60.77%;
+  right: 34.87%;
+  top: 22.97%;
+  bottom: 50%;
 }
 
-#settings{
-    position: absolute;
-left: 78.93%;
-right: 11.38%;
-top: 56.76%;
-bottom: 22.97%;
+#settings {
+  position: absolute;
+  left: 78.93%;
+  right: 11.38%;
+  top: 56.76%;
+  bottom: 22.97%;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: 300;
-font-size: 10px;
-line-height: 15px;
-/* identical to box height */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: rgba(255, 255, 255, 0.5);
-
+  color: rgba(255, 255, 255, 0.5);
 }
 
-#settingsLogo{
-    position: absolute;
-left: 81.6%;
-right: 13.56%;
-top: 21.62%;
-bottom: 51.35%;
-
+#settingsLogo {
+  position: absolute;
+  left: 81.6%;
+  right: 13.56%;
+  top: 21.62%;
+  bottom: 51.35%;
 }

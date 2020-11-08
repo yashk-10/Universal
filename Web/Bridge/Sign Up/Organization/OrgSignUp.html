@@ -22,7 +22,7 @@
             </ul>
         </nav>
         <div class="login">
-            <a href="#"><button class="btn-login">Login</button></a>
+            <a id='logIn' href="#">Log In</a>
             <a href="#"><button class="btn-signup">Sign Up</button></a>
         </div>
     </header>
@@ -70,25 +70,27 @@
     <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
  https://firebase.google.com/docs/web/setup#available-libraries -->
 
 <script>
 // Your web app's Firebase configuration
-var firebaseConfig = {
-apiKey: "AIzaSyCD7KZA8wKHeyoq6beiQnFETxucRMuoXLM",
-authDomain: "universal-8aec4.firebaseapp.com",
-databaseURL: "https://universal-8aec4.firebaseio.com",
-projectId: "universal-8aec4",
-storageBucket: "universal-8aec4.appspot.com",
-messagingSenderId: "440414088827",
-appId: "1:440414088827:web:80134724d79b2b9fbefcde"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+    var firebaseConfig = {
+    apiKey: "AIzaSyCD7KZA8wKHeyoq6beiQnFETxucRMuoXLM",
+    authDomain: "universal-8aec4.firebaseapp.com",
+    databaseURL: "https://universal-8aec4.firebaseio.com",
+    projectId: "universal-8aec4",
+    storageBucket: "universal-8aec4.appspot.com",
+    messagingSenderId: "440414088827",
+    appId: "1:440414088827:web:80134724d79b2b9fbefcde"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
 
-const auth = firebase.auth();
+    const auth = firebase.auth();
+    const db = firebase.firestore();
 </script>
 </body>
 </html>

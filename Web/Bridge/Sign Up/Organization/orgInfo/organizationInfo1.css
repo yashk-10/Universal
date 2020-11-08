@@ -103,7 +103,7 @@
     left: 381px;
     top: 343px;
 
-    background: #530BCA;
+    background: #0B35CA;
     border-radius: 5px;
 }
 
@@ -138,7 +138,7 @@
     position: absolute;
     
     height: 16px;
-    left: 384px;
+    left: 370px;
     top: 351px;
     width: 100px;
 
@@ -148,15 +148,20 @@
     font-size: 12px;
     line-height: 16px;
     text-align: center;
-
     color: #100268;
 
+}
+
+#firstNameInput:focus{
+    outline: none;
+    border: 1px solid #0B35CA;
+    box-shadow: 0px 0px 0px 4px rgba(11, 53, 202, 0.17);
 }
 
 #lastName{
     position: absolute;
     height: 16px;
-    left: 652px;
+    left: 636px;
     top: 351px;
     width: 100px;
 
@@ -168,6 +173,12 @@
     text-align: center;
 
     color: #100268;
+}
+
+#lastNameInput:focus{
+    outline: none;
+    border: 1px solid #0B35CA;
+    box-shadow: 0px 0px 0px 4px rgba(11, 53, 202, 0.17);
 }
 
 #plan{
@@ -198,6 +209,7 @@
 
     border: 0.5px solid #100268;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #shoppingButton:hover{
@@ -218,6 +230,7 @@
 
     border: 0.5px solid #100268;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #healthcareButton:hover{
@@ -238,6 +251,7 @@
 
     border: 0.5px solid #100268;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #otherButton:hover{
@@ -247,22 +261,26 @@
     border: none;
 }
 
+
+
 #nextButton{
     position: absolute;
     width: 518px;
     height: 45px;
     left: 384px;
-    top: 575px;
+    top: 455px;
     color: white;
     border: none;
-
-    background: linear-gradient(90deg, #1D4EFF 0%, #1D0776 100%);
+    font-size: 16px;
+    background: linear-gradient(90deg, #0B35CA 0%, #1D0776 100%);
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #nextButton:hover{
+    background: linear-gradient(90deg, #0B35CA 0%, #1D0776 100%);
+    box-shadow: 0px 0px 10px 0.5px rgba(11, 53, 202, 0.22);
     cursor: pointer;
-    background: #1D4EFF;
     color: white;
     border: none;
 }
@@ -273,7 +291,7 @@
     height: 45px;
     left: 384px;
     top: 377px;
-    text-indent: 10%;
+    text-indent: 5%;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -291,7 +309,7 @@
     height: 45px;
     left: 652px;
     top: 377px;
-    text-indent: 10%;
+    text-indent: 5%;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;

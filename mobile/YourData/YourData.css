@@ -1,403 +1,406 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-    overflow: hidden;
-  }
-  
-  body {
-    scroll-behavior: smooth;
-    width: 1000px;
-    height: 762px;
-    left: -60px;
-  }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+body {
+  scroll-behavior: smooth;
+  width: 1000px;
+  height: 762px;
+  left: -60px;
+}
 button {
-    outline: none;
-  }
-  
+  outline: none;
+}
+
 input {
-    outline: none;
-    padding: 15px;
-  }
-  
+  outline: none;
+  padding: 15px;
+}
+
 input:focus {
-    border: 1px solid #0b35ca;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 0px 3px rgba(11, 53, 202, 0.1);
-  }
-  
-
-#bottomDiv{
-    position: absolute;
-width: 413px;
-height: 74px;
-left: 0px;
-top: 664px;
-
-background: #100268;
-box-shadow: 0px 0px 5px 1.5px rgba(0, 0, 0, 0.25);
+  border: 1px solid #0b35ca;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 3px rgba(11, 53, 202, 0.1);
 }
 
+#bottomDiv {
+  position: absolute;
+  width: 413px;
+  height: 74px;
+  left: 0px;
+  top: 664px;
 
-#activity{
-    position: absolute;
-    left: 9.93%;
-    right: 80.15%;
-    top: 58.11%;
-    bottom: 21.62%;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 15px;
-    /* identical to box height */
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
+  background: #100268;
+  box-shadow: 0px 0px 5px 1.5px rgba(0, 0, 0, 0.25);
 }
 
-#activityLogo{
-    position: absolute;
-    left: 12.59%;
-    right: 82.57%;
-    top: 22.97%;
-    bottom: 50%;
+#activity {
+  position: absolute;
+  left: 9.93%;
+  right: 80.15%;
+  top: 58.11%;
+  bottom: 21.62%;
 
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-#yourData1{
-    position: absolute;
-    left: 28.5%;
-    right: 56.66%;
-    top: 58.11%;
-    bottom: 21.62%;
-    width: 75px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 15px;
-    /* identical to box height */
-
-    text-align: center;
-    color: white;
+#activityLogo {
+  position: absolute;
+  left: 12.59%;
+  right: 82.57%;
+  top: 22.97%;
+  bottom: 50%;
 }
 
-#yourDataLogo{
-    position: absolute;
-    left: 35.11%;
-    right: 60.05%;
-    top: 22.97%;
-    bottom: 50%;
+#yourData1 {
+  position: absolute;
+  left: 28.5%;
+  right: 56.66%;
+  top: 58.11%;
+  bottom: 21.62%;
+  width: 75px;
 
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  color: white;
 }
 
-#requests{
-    position: absolute;
-    left: 57.14%;
-    right: 31.72%;
-    top: 58.11%;
-    bottom: 21.62%;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 15px;
-    /* identical to box height */
-
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
+#yourDataLogo {
+  position: absolute;
+  left: 35.11%;
+  right: 60.05%;
+  top: 22.97%;
+  bottom: 50%;
 }
 
-#requestsLogo{
+#requests {
+  position: absolute;
+  left: 57.14%;
+  right: 31.72%;
+  top: 58.11%;
+  bottom: 21.62%;
 
-    position: absolute;
-    left: 60.77%;
-    right: 34.87%;
-    top: 22.97%;
-    bottom: 50%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-#settings{
-    position: absolute;
-    left: 78.93%;
-    right: 11.38%;
-    top: 56.76%;
-    bottom: 22.97%;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 15px;
-    /* identical to box height */
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
+#requestsLogo {
+  position: absolute;
+  left: 60.77%;
+  right: 34.87%;
+  top: 22.97%;
+  bottom: 50%;
 }
 
-#settingsLogo{
-    position: absolute;
-    left: 81.6%;
-    right: 13.56%;
-    top: 21.62%;
-    bottom: 51.35%;
+#settings {
+  position: absolute;
+  left: 78.93%;
+  right: 11.38%;
+  top: 56.76%;
+  bottom: 22.97%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-#yourData{
-    position: absolute;
-width: 144px;
-height: 42px;
-left: 31px;
-top: 35px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 42px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #100268;
+#settingsLogo {
+  position: absolute;
+  left: 81.6%;
+  right: 13.56%;
+  top: 21.62%;
+  bottom: 51.35%;
 }
 
-#topText{
-    position: absolute;
-    width: 352px;
-    height: 28px;
-    left: 31px;
-    top: 90px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 14px;
-    
-    color: #100268;
+#yourData {
+  position: absolute;
+  width: 144px;
+  height: 42px;
+  left: 31px;
+  top: 35px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #100268;
 }
 
-#firstName{
-    position: absolute;
-    width: 72px;
-    height: 16px;
-    left: 31px;
-    top: 159px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: #100268;
+#topText {
+  position: absolute;
+  width: 352px;
+  height: 28px;
+  left: 31px;
+  top: 90px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 14px;
+
+  color: #100268;
 }
 
-#saveButton{
-    position: absolute;
-    width: 352px;
-    height: 42px;
-    left: 31px;
-    top: 606px;
+#firstName {
+  position: absolute;
+  width: 72px;
+  height: 16px;
+  left: 31px;
+  top: 159px;
 
-    background: #07C8A5;
-    border-radius: 5px;
-    border: none;
-    font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
 
-text-align: center;
-
-color: #FFFFFF;
+  color: #100268;
 }
 
-#saveButton:hover{
-    background: #00B695;
+#saveButton {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 31px;
+  top: 606px;
+
+  background: #07c8a5;
+  border-radius: 5px;
+  border: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  border: none;
+  outline: none;
 }
 
-#lastName{
-    position: absolute;
-    width: 68px;
-    height: 16px;
-    left: 215px;
-    top: 159px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: #100268;    
+#saveButton:hover {
+  background: #00b695;
 }
 
-#emailAddress{
-    position: absolute;
-    width: 95px;
-    height: 16px;
-    left: 31px;
-    top: 252px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: #100268;
+#saveButton:focus {
+  background: #07c8a5;
+  color: #ffffff;
+  box-shadow: 0px 0px 0px 4px rgba(11, 202, 113, 0.205);
 }
 
-#homeAddress{
-    position: absolute;
-    width: 94px;
-    height: 16px;
-    left: 31px;
-    top: 341px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: #100268;
+#lastName {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 215px;
+  top: 159px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #100268;
 }
 
-#phoneNumber{
-    position: absolute;
-    width: 99px;
-    height: 16px;
-    left: 31px;
-    top: 427px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: #100268;
+#emailAddress {
+  position: absolute;
+  width: 95px;
+  height: 16px;
+  left: 31px;
+  top: 252px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #100268;
 }
 
-#emergencyContact{
-    position: absolute;
-    width: 213px;
-    height: 16px;
-    left: 20px;
-    top: 519px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: #100268;
+#homeAddress {
+  position: absolute;
+  width: 94px;
+  height: 16px;
+  left: 31px;
+  top: 341px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #100268;
 }
 
-#emergencyContactNumber{
-    position: absolute;
-    width: 189px;
-    height: 16px;
-    left: 31px;
-    top: 615px;
-    
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    
-    color: #100268;
+#phoneNumber {
+  position: absolute;
+  width: 99px;
+  height: 16px;
+  left: 31px;
+  top: 427px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #100268;
 }
 
-#firstNameInput{
-    position: absolute;
-    width: 168px;
-    height: 42px;
-    left: 31px;
-    top: 188px;
+#emergencyContact {
+  position: absolute;
+  width: 213px;
+  height: 16px;
+  left: 20px;
+  top: 519px;
 
-    border: 1px solid #100268;
-    border-radius: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #100268;
 }
 
-#lastNameInput{
-    position: absolute;
-    width: 168px;
-    height: 42px;
-    left: 215px;
-    top: 188px;
+#emergencyContactNumber {
+  position: absolute;
+  width: 189px;
+  height: 16px;
+  left: 31px;
+  top: 615px;
 
-    border: 1px solid #100268;
-    border-radius: 5px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #100268;
 }
 
-#emailAddressInput{
-    position: absolute;
-    width: 352px;
-    height: 42px;
-    left: 31px;
-    top: 280px;
-    
-    border: 1px solid #100268;
-    border-radius: 5px;
+#firstNameInput {
+  position: absolute;
+  width: 168px;
+  height: 42px;
+  left: 31px;
+  top: 188px;
+
+  border: 1px solid #100268;
+  border-radius: 5px;
 }
 
-#homeAddressInput{
-    position: absolute;
-    width: 352px;
-    height: 42px;
-    left: 31px;
-    top: 369px;
-    
-    border: 1px solid #100268;
-    border-radius: 5px;
+#lastNameInput {
+  position: absolute;
+  width: 168px;
+  height: 42px;
+  left: 215px;
+  top: 188px;
+
+  border: 1px solid #100268;
+  border-radius: 5px;
 }
 
-#phoneNumberInput{
-    position: absolute;
-    width: 352px;
-    height: 42px;
-    left: 31px;
-    top: 455px;
-    
-    border: 1px solid #100268;
-    border-radius: 5px;
+#emailAddressInput {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 31px;
+  top: 280px;
+
+  border: 1px solid #100268;
+  border-radius: 5px;
 }
 
-#emergencyContactInput{
-    position: absolute;
-    width: 352px;
-    height: 42px;
-    left: 31px;
-    top: 546px;
+#homeAddressInput {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 31px;
+  top: 369px;
 
-    border: 1px solid #100268;
-    border-radius: 5px;
+  border: 1px solid #100268;
+  border-radius: 5px;
+}
+
+#phoneNumberInput {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 31px;
+  top: 455px;
+
+  border: 1px solid #100268;
+  border-radius: 5px;
+}
+
+#emergencyContactInput {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 31px;
+  top: 546px;
+
+  border: 1px solid #100268;
+  border-radius: 5px;
 }

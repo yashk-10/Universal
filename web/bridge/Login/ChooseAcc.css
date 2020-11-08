@@ -23,7 +23,7 @@ body {
   width: 1280px;
   height: 762px;
 
-  background: linear-gradient(180deg, #0F003A 0%, #0B35CA 100%);
+  background: linear-gradient(180deg, #0f003a 0%, #0b35ca 100%);
 }
 .middle {
   position: absolute;
@@ -344,6 +344,7 @@ body {
   border-radius: 5px;
   background-color: transparent;
 }
+
 #signbut2 {
   position: absolute;
   width: 60px;
@@ -357,10 +358,11 @@ body {
   font-size: 16px;
   line-height: 22px;
   /* identical to box height */
-
-  color: #ffffff;
+  cursor: pointer;
+  color: white;
 }
-#tos{
+
+#tos {
   position: absolute;
   width: 351px;
   height: 19px;
@@ -374,6 +376,5 @@ body {
   line-height: 19px;
   /* identical to box height */
 
-
-  color: #FFFFFF;
+  color: #ffffff;
 }

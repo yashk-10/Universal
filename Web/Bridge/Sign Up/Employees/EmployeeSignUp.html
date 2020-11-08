@@ -52,10 +52,10 @@ help  <br><span style="font-weight: 800;">your company.</span>
 
                 <div class="form-container">
                     <label class="emp-email"><b>EMAIL ADDRESS</b></label>
-                    <input class="inputemail" type="email" required>
+                    <input id="inputemail" type="email" required>
                 <div class="pass">
                     <label class="emp-password"><b>PASSWORD</b></label>
-                    <input class="inputpassword" type="password" required>
+                    <input id="inputpassword" type="password" required>
 
                     <label class="emp-cfnpassword"><b>CONFIRM PASSWORD</b></label>
                     <input class="inputcfnpassword" type="password"  required>
@@ -65,12 +65,35 @@ help  <br><span style="font-weight: 800;">your company.</span>
                     <label class="emp-org"><b>ORGANIZATION CODE</b></label>
                     <input class="inputorg" type="password"  required>
                         
-                    <button class="signup" type="emp-submit">Sign up for Universal <span style="font-weight: 800;">- It’s free </span></button>
+                    <button class="signup" type="emp-submit" >Sign up for Universal <span style="font-weight: 800;">- It’s free </span></button>
                     <a class="emp-login" href="#">Already have an account? <span style="font-weight: 800;">Log in.</span></a>
                   </div>
             </div>
         </div> 
     </main>  
-        <script src="script.js"></script>
+        <script src="EmployeeSignUp.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCD7KZA8wKHeyoq6beiQnFETxucRMuoXLM",
+    authDomain: "universal-8aec4.firebaseapp.com",
+    databaseURL: "https://universal-8aec4.firebaseio.com",
+    projectId: "universal-8aec4",
+    storageBucket: "universal-8aec4.appspot.com",
+    messagingSenderId: "440414088827",
+    appId: "1:440414088827:web:80134724d79b2b9fbefcde"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  const auth = firebase.auth();
+</script>
 </body>
 </html>

@@ -47,6 +47,72 @@ input {
     top: 41px;
 }
 
+#menu{
+    position: absolute;
+    left: 26.56%;
+    right: 71.88%;
+    top: 3.28%;
+    bottom: 94.88%;
+}
+
+#menu:hover{
+    cursor: pointer;
+}
+
+#administrative{
+    position: absolute;
+    width: 185px;
+    height: 24px;
+    left: 415px;
+    top: 19px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    color: #100268;
+}
+
+#settings{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1111px;
+    top: 22px;
+}
+
+#flag{
+    position: absolute;
+    left: 90.47%;
+    right: 7.89%;
+    top: 3.02%;
+    bottom: 94.88%;
+}
+
+#topPic{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1212px;
+    top: 16px;
+}
+
+.line{
+    position: absolute;
+    width: 965px;
+    height: 0px;
+    left: 309px;
+    top: 48px;
+    
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0.12deg);
+}
+
 #universal{
     position: absolute;
     width: 84px;
@@ -92,14 +158,14 @@ input {
     
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     /* identical to box height */
     
     text-align: center;
     
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.75);
     
 }
 #activity1{
@@ -114,79 +180,121 @@ input {
     border:none;
     outline: none;
 }
-#system{
+#activity1{
     position: absolute;
-    width: 102px;
-    height: 24px;
-    left: 93px;
-    top: 201px;
+    width: 271px;
+    height: 49px;
+    left: 18px;
+    top: 125px;
+    background: none;
+    font-weight: normal;
 
-    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+}
+
+#activity1:hover{
+  background: rgba(255, 255, 255, 0.15);
+}
+
+#system {
+  position: absolute;
+  width: 271px;
+  height: 49px;
+  top: 190px;
+  left: 18px;
+  border-radius: 5px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  background: none;
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#system:hover{
+    background: rgba(255, 255, 255, 0.15);
+}
+
+
+#database {
+  position: absolute;
+  width: 271px;
+  height: 49px;
+  top: 255px;
+  left: 18px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.15);
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#database:hover{
+  background: rgba(255, 255, 255, 0.15);
+}
+
+#employeeList {
+  position: absolute;
+  width: 271px;
+  height: 49px;
+  top: 319px;
+  left: 18px;
+  border-radius: 5px;
+  background: none;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#employeeList:hover{
+  background: rgba(255, 255, 255, 0.15);
+}
+
+#customers {
+    position: absolute;
+    width: 271px;
+    height: 49px;
+    top: 383px;
+    left: 18px;
+    border-radius: 5px;
+    background: none;
+  
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     /* identical to box height */
-
+  
     text-align: center;
-
     color: rgba(255, 255, 255, 0.75);
-
-}
-
-#database{
-    position: absolute;
-    width: 79px;
-    height: 24px;
-    left: 94px;
-    top: 265px;
-    
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-    
-    text-align: center;
-    color: rgba(255, 255, 255, 0.75);    
-}
-
-#employeeList{
-    position: absolute;
-    width: 108px;
-    height: 24px;
-    left: 93px;
-    top: 329px;
-    
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-    
-    text-align: center;
-    color: rgba(255, 255, 255, 0.75);    
-}
-
-#customers{
-    position: absolute;
-    width: 88px;
-    height: 24px;
-    left: 93px;
-    top: 393px;
-
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-
-    text-align: center;
-    color: rgba(255, 255, 255, 0.75);
-}
+  }
+  
+  #customers:hover{
+    background: rgba(255, 255, 255, 0.15);
+  }
 #vincent{
     position: absolute;
     width: 155px;
@@ -378,6 +486,17 @@ input {
     background: #0B35CA;
     border-radius: 5px;
 }
+#greg{
+    position: absolute;
+    width: 902px;
+    height: 55px;
+    left: 340px;
+    top: 170px;
+    
+    background: #0B35CA;
+    border-radius: 5px;
+}
+
 #greg1{
     position: absolute;
     width: 135px;
@@ -786,7 +905,7 @@ border: none;
     top: 18.25%;
     bottom: 74.3%;
     border-radius: 100%;
-}
+  }
 
 #entryAddress{
     position: absolute;

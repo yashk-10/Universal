@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Organization Info 1</title>
+
+  <link rel="stylesheet" href="organizationInfo1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id='background'></div>
+    <div id='topDiv'>
+        <img id="logo" src='logo.svg'/>
+        <h1 id='topText'>Let's get you set up</h1>
+        <h1 id='bottomText'>We’ll be storing this information and using it to help personalize Universal for your organization.</h1>
+    </div>
+    <div id="middleDiv">
+        <h1 id="personal">1 / 2 - Personal Details</h1>
+        <div id="purpBar"></div>
+        <div id="bar"></div>
+        <div id="bar2"></div>
+    </div>
+    <div id="infoDiv"> <!--Text-->
+        <h5 id='firstName'>FIRST NAME</h5>
+        <h5 id='lastName'>LAST NAME</h5>
+        <button onclick='storeName()' id='nextButton'>Next Step</button>
+        <form>
+            <input id='firstNameInput'/>
+            <input id='lastNameInput'/>
+        </form>
+    </div>
+  <script src="../OrgSignUp.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+    apiKey: "AIzaSyCD7KZA8wKHeyoq6beiQnFETxucRMuoXLM",
+    authDomain: "universal-8aec4.firebaseapp.com",
+    databaseURL: "https://universal-8aec4.firebaseio.com",
+    projectId: "universal-8aec4",
+    storageBucket: "universal-8aec4.appspot.com",
+    messagingSenderId: "440414088827",
+    appId: "1:440414088827:web:80134724d79b2b9fbefcde"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+    </script>
+</body>
+</html>
