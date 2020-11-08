@@ -211,10 +211,10 @@ nav {
   border: 0.5px solid #100268;
   border-radius: 5px;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: #100268;
 }
-.inputemail:focus {
-  background-color: #412ada38;
-}
+
 
 #inputpassword {
   width: 100%;
@@ -237,10 +237,6 @@ nav {
   border: 0.5px solid #100268;
   border-radius: 5px;
   box-sizing: border-box;
-}
-
-.inputcfnpassword:focus {
-  background-color: #412ada38;
 }
 
 .org-email {
