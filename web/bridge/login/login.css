@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-} 
+}
 
 .html {
   scroll-behavior: smooth;
@@ -39,7 +39,7 @@ input:focus {
   /* Rectangle 1 */
   position: absolute;
   width: 522px;
-  height: 424px;
+  height: 448px;
   left: 379px;
   top: 184px;
 
@@ -157,6 +157,7 @@ input:focus {
   top: 217px;
 
   font-family: Poppins;
+  font-weight: 100;
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
@@ -176,10 +177,10 @@ input:focus {
   left: 419px;
   top: 275px;
 
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px;
 
   color: #100268;
@@ -214,6 +215,14 @@ input:focus {
   background: #ffffff;
   border: 0.5px solid #100268;
   border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+#emailInput:focus{
+  border: 1px solid #530BCA;
+  box-shadow: 0px 0px 0px 4px rgba(83, 11, 202, 0.17);
+  border-radius: 5px;
 }
 
 #password {
@@ -245,6 +254,13 @@ input:focus {
   border: 0.5px solid #100268;
   box-sizing: border-box;
   border-radius: 5px;
+  font-size: 18px;
+}
+
+#passwordInput:focus{
+  border: 1px solid #530BCA;
+  box-shadow: 0px 0px 0px 4px rgba(83, 11, 202, 0.17);
+  border-radius: 5px;
 }
 
 #universalLogIn {
@@ -261,6 +277,8 @@ input:focus {
   border: 1px;
   border-color: linear-gradient(90deg, #07c8a5 0%, #100268 100%);
   color: white;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 #universalLogIn:hover {
@@ -273,11 +291,9 @@ input:focus {
 #termsConditions {
   /* By signing in, you agree to our terms and conditions. */
   position: absolute;
-  width: 450px;
   height: 19px;
-  left: 425px;
-  top: 678px;
-
+  left: 464px;
+  top: 683px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -294,14 +310,17 @@ input:focus {
   width: 240px;
   height: 19px;
   left: 529px;
-  top: 573px;
+  top: 584px;
 
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 14px;
   line-height: 19px;
   /* identical to box height */
 
   color: #1d0776;
+}
+#alreadyHaveAccount:hover{
+  cursor: pointer;
 }

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="OrgSystemPage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <title>Hello, world!</title>
+  </head>
+    <div id = "container" class="container">
+    <div id="blurBox">
+    <div id = "left" class="left">
+        <h5 id = "universal"> Universal</h5>
+        <h5 id = "org">For Organizations </h5> 
+        <img src="saturn1.svg" id='logo'>
+        <a id = "activity" href = #>Activity Page</a>
+        <img src="activity1.svg" id='activityImage1'>
+        <button id = "activity1" ></button>
+        <img src="activity2.svg" id='activityImage2'>
+        <a id ="system" href = #>System View</a>
+        <img src="systemView.svg" id='sysimg'>
+        <a id='database' href = #>Database</a>
+        <img src="database.svg" id='dataimg'>
+        <a id='employeeList' href = #>Employee List</a>
+        <img src="employeeList.svg" id='employeeimg'>
+        <a id='customers' href = #>Customers</a> 
+        <img src="customers.svg" id='customersimg'>
+        <h5 id="vincent">Vincent Williams</h5>
+        <img src="profilePic.svg" id='profileimg'>
+        <h5 id="admin">System Administrator </h5>
+    </div>
+    <div id ="top" class="top">
+        <img src="menu.svg" id='menu'>
+        <h5 id='administrative'>Administrative Account</h5>
+        <img src="settings.svg" id='settings'>
+        <img src="flag.svg" id='flag'>
+        <img src="topPic.svg" id='topPic'>
+        <hr class="line">
+    </div>
+        <div id ="right" class="right">
+        <button id = "reqbutton">Hm... looks like you’ve got no employee interaction components. Why not create one?.</button>
+        <button id='newReq' src="newRequest.svg" onClick="newSystemComponent()">New System Component</button>
+        <img id = 'sadFace' src="sadFace.svg">
+        </div>
+    <div id = "middle1">
+      <h5 id = "intcomp">Employee Interaction Components</h5>
+        <h5 id = "cuscomp">Customer Interaction Components</h5>
+        <h5 id = 'custData'>Customer Data Sheet</h5>
+        <h5 id = 'custInt'>CUSTOMER INTERACTION - LAST UPDATED 4:54 PM</h5>
+        <h5 id = 'currentActive'>Currently Active</h5>
+        <h5 id = 'dataField'> 14 DATA FIELDS FILLED</h5>
+        <button id='accessData' onClick="databaseRouter()">Access Database</button>
+    </div>
+    <div id = "middle2">
+        <h5 id = 'prodSales'>Product Sales Components</h5>
+        <h5 id = 'custInt2'>CUSTOMER INTERACTION - LAST UPDATED 4:54 PM</h5>
+        <h5 id = 'currentActive2'>Currently Active</h5>
+        <h5 id = 'dataField2'> 14 DATA FIELDS FILLED</h5>
+        <button id='accessData2' onClick="databaseRouter()">Access Database</h5>
+
+    </div>
+  </div>
+  <div id="security">
+    <button onClick="closer()"><img id="close" src="close.svg"/></button>
+    <img id="securityLogo" src="securityLogo.svg"/>
+    <h1 id="auth">Security Code Authentication</h1>
+    <h1 id="securityText">Enter the security code shown on the customer’s screen to start the request.</h1>
+    <input id="code1"/>
+    <input id="code2"/>
+    <input id="code3"/>
+    <input id="code4"/>
+    <input id="code5"/>
+    <button id="continue" onClick="continuer()">Continue</button>
+</div>
+
+<div id="customerConf">
+    <button onClick="closer()"><img id="close" src="close.svg"/></button>
+    <img id="confirmationLogo" src="confirmation.svg"/>
+    <h1 id="confTitle">Waiting for Customer Confirmation</h1>
+    <h1 id="confText">The sender needs to confirm that they wish to accept your request. 
+        This process shouldn’t take too long . . . </h1>
+</div>
+
+<div id="reqComplete">
+    <img id="completeLogo" src="complete.svg"/>
+    <h1 id="completeTitle">Customer Request Complete</h1>
+    <h1 id="completeText">Hooray! You’ve got the data. The required data was sent by the customer and is now being stored in the <span style="font-weight: bold;">Database.</span></h1>
+    <button id="doneButton">We're done here.</button>
+    <button id="databaseButton">Go to Database</button>
+</div>
+
+<div id="newSystem">
+    <button onClick="closer()"><img id="close" src="close.svg"/></button>
+    <img id="systemLogo" src="system.svg"/>
+    <h1 id="systemTitle">New System Component</h1>
+    <h1 id="systemText">Select who you want to get your data from. Based on this, Universal will organize this data in a specific section in your <span style="font-weight: bold;">Database.</span></h1>
+    <button id="custIntButton" onClick="nextPage()">Customer Interaction Component</button>
+    <button id="empIntButton" onClick="nextPage()">Employee Interaction Component</button>
+</div>
+
+<div id="compDetails">
+    <button onClick="closer()"><img id="close" src="close.svg"/></button>
+    <h1 id="compTitle">Component Details</h1>
+    <h1 id="compName">COMPONENT NAME</h1>
+    <input id="compNameInput" />
+    <h1 id="secLevel">SECURITY LEVEL</h1>
+    <button id="secComp">Secure Component</button>
+    <button id="openComp">Open Component</button>
+    <h1 id="dataTitle">DATA INPUT TYPE</h1>
+    <button id="textInputButton">Text Input</button>
+    <button id="fileInputButton">File Input Button</button>
+    <button id="nextButton" onClick="nextButton()">Next</button>
+</div>
+
+
+<div id="compCreComplete">
+    <img id="compCompleteLogo" src="compComplete.svg"/>
+    <h1 id="compCompleteTitle">Component Creation Complete</h1>
+    <h1 id="compCompleteText">Great! You just created a component that can be used to collect data from your customers and employees.</h1>
+    <button id="doneButton" onClick="closer()">Done</button>
+</div>
+
+<div id="databaseEntry4">
+    <button onClick="closer()"><img id="close" src="close.svg"/></button>
+    <h1 id="entryHead">Database Entry 4</h1>
+    <h1 id="entryName">Greg Underwood</h1>
+    <h1 id="entryDate">Novemeber 7, 2020</h1>
+    <img id="userPic" src="jacobPic.svg"/>
+    <button id="customerEntry">Customer Entry</button>
+    <h1 id="entryAddress">ADDRESS</h1>
+    <input id="entryAddressInput" />
+    <h1 id="entryPhone">PHONE NUMBER</h1>
+    <input id="entryPhoneInput"/>
+    <h1 id="entryEmergency">EMERGENCY CONTACT NAME</h1>
+    <input id="entryEmergencyInput"/>
+    <h1 id="entryBottomTitle">HAVE YOU HAD AN COVID-19 LIKE SYMPTOMS IN THE PAST 5 DAYS?</h1>
+    <input id="entryBottomInput"/>
+    <button id="closeData">Close Data Entry</button>
+</div>
+
+<div id="destination">
+    <button onClick="closer()"><img id="close" src="close.svg"/></button>
+    <img id="destinationLogo" src="destination.svg"/>
+    <h1 id="destTitle">Choose the destination component</h1>
+    <h1 id="destText">Select where the data should be stored after the request has been completed and what fields to request.</h1>
+    <button onClick="securityLoad()"><img id="customerEntrySheet" src="customerEntrySheet.svg"/></button>
+    <button onClick="securityLoad()"><img id="productSalesSheet" src="productSalesSheet.svg" /></button>
+    <button onClick="securityLoad()"><img id="medicalSupplySheet" src="medicalSupplySheet.svg"/></button>
+</div>
+
+    </div>
+    <body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="OrgSystemPage.js"></script>
+  </body>
+</html>

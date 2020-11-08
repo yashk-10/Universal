@@ -1,0 +1,1224 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #dadbf5;
+  }
+  
+  button {
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  .container {
+    background-color: white;
+    width: 32%;
+    height: 58vh;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 11vh;
+  }
+  
+  .logo-container{
+    margin: auto;
+    width: 10%;
+    margin-top: 100px; 
+  
+  }
+  
+  .logoimg{
+    margin-top: 75px;
+  }
+  
+  .button-container{
+    width: 80%;
+    margin-top: 30px;
+    margin: auto;
+  }
+  
+  .button1{
+    width: 100%;
+        color: white;
+      
+      background: #100268;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+  height: 36px;
+      margin-top: 35px;
+  
+  }
+  
+  .button2{
+    width: 100%;
+    height: 36px;
+  
+        color: white;
+      
+      background: #100268;
+      border-radius: 5px;
+          border: none;
+      outline: none;
+      margin-top: 25px;
+      cursor: pointer;
+  }
+  
+  .text-container{
+    width: 70%;
+    margin: auto;
+  }
+  
+  .title{
+    font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #100268;
+  
+  margin-top: 14px;
+  }
+  
+  .subtext{
+    font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  
+  color: #100268;
+  
+  margin-top: 15px;
+  }
+  
+#security{
+    position: absolute;
+    width: 40%;
+    height: 390px;
+    top: 20%;
+    left: 30%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    display:none;
+}  
+
+#auth{
+    position: absolute;
+    width: 60%;
+    height: 30px;
+    top: 40%;
+    left: 20%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+
+}
+
+#securityText{
+    position: absolute;
+    width: 85%;
+    height: 16px;
+    top: 50%;
+    left: 7.5%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #100268;
+
+}
+
+#code1{
+    position: absolute;
+    width: 15%;
+    height: 52px;
+    top: 60%;
+    left: 7.5%;
+    text-align: center;
+
+
+    background: #FFFFFF;
+    border: 1px solid #530BCA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#code2{
+    position: absolute;
+    width: 15%;
+    height: 52px;
+    top: 60%;
+    left: 25%;
+    text-align: center;
+
+    background: #FFFFFF;
+    border: 1px solid #530BCA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#code3{
+    position: absolute;
+    width: 15%;
+    height: 52px;
+    top: 60%;
+    left: 42.5%;
+    text-align: center;
+
+    background: #FFFFFF;
+    border: 1px solid #530BCA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#code4{
+    position: absolute;
+    width: 15%;
+    height: 52px;
+    left: 60%;
+    top: 60%;
+    text-align: center;
+
+    background: #FFFFFF;
+    border: 1px solid #530BCA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#code5{
+    position: absolute;
+    width: 15%;
+    height: 52px;
+    top: 60%;
+    left: 77.5%;
+    text-align: center;
+
+    background: #FFFFFF;
+    border: 1px solid #530BCA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#close{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 5%;
+    left: 90%;
+}
+
+#continue{
+    position: absolute;
+    top: 80%;
+    left:15%;
+    width: 70%;
+    height: 44px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #530BCA;
+    border-radius: 5px;
+    border: none;
+}
+
+#continue:hover{
+    cursor: pointer;
+    background: #6D14FF;
+}
+
+#securityLogo{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 15%;
+    left: 40%;
+}
+
+#customerConf{
+    position: absolute;
+    width: 40%;
+    height: 390px;
+    top: 20%;
+    left: 30%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    display:none;
+    
+}
+
+#confirmationLogo{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 15%;
+    left: 35%;
+}
+
+#confTitle{
+    position: absolute;
+    width: 80%;
+    left:10%;
+    height: 30px;
+    top: 50%;
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+}
+
+#confText{
+    position: absolute;
+    top: 65%;
+    width: 75%;
+    left: 12.5%;
+    height: 32px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #100268;
+}
+
+#reqComplete{
+    position: absolute;
+    width: 40%;
+    height: 390px;
+    top: 20%;
+    left: 30%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: none;
+}
+
+#completeLogo{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 15%;
+    left: 40%;
+}
+
+#completeTitle{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    height: 30px;
+    top: 45%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+}
+
+#completeText{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height: 32px;
+    top: 60%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #100268;
+}
+
+#doneButton{
+    position: absolute;
+width: 35%;
+left: 12.5%;
+height: 37px;
+top: 75%;
+
+background: #07C8A5;
+border-radius: 5px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+border: none;
+}
+
+#doneButton:hover{
+    cursor: pointer;
+    background: #0BEBC2;
+}
+
+#databaseButton{
+    position: absolute;
+    width: 35%;
+    height: 37px;
+    left: 52.5%;
+    top: 75%;
+
+
+    background: #C4C4C4;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    border: none;
+
+}
+
+
+#databaseButton:hover{
+    cursor: pointer;
+    background: #A0A0A0;
+}
+
+#newSystem{
+    position: absolute;
+    width: 40%;
+    height: 390px;
+    top: 20%;
+    left: 30%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: none;
+}
+
+#systemLogo{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 15%;
+    left: 40%;
+}
+
+#systemTitle{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    height: 30px;
+    top: 40%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+}
+
+#systemText{
+    position: absolute;
+    width: 75%;
+    left: 12.5%;
+    height: 32px;
+    top: 50%;
+
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #100268;
+}
+
+#custIntButton{
+
+position: absolute;
+width: 75%;
+left: 12.5%;
+top: 65%;
+height: 36px;
+
+background: #100268;
+border-radius: 5px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+border: none;
+
+
+}
+
+#custIntButton:hover{
+    cursor: pointer;
+    background: #2006C5;
+}
+
+#empIntButton{
+    position: absolute;
+    width: 75%;
+    left: 12.5%;
+    top: 80%;
+    height: 36px;
+
+    background: #100268;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    border: none;
+
+}
+
+#empIntButton:hover{
+    cursor: pointer;
+    background: #2006C5;
+}
+
+#close{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 5%;
+    left: 90%;
+}
+
+#compDetails{
+    position: absolute;
+    width: 40%;
+    height: 490px;
+    top: 20%;
+    left: 30%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: none;
+}
+
+#compTitle{
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    height: 30px;
+    top: 10%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+
+}
+
+#compName{
+    position: absolute;
+    width: 119px;
+    height: 16px;
+    left: 6%;
+    top: 20%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #100268;
+}
+
+#compNameInput{
+    position: absolute;
+    width: 443px;
+    height: 38px;
+    top: 25%;
+    left: 6%;
+
+    border: 0.5px solid #0B35CA;
+    border-radius: 5px;
+    text-indent: 10%;
+}
+
+#secLevel{
+    position: absolute;
+    width: 95px;
+    height: 16px;
+    left: 6%;
+    top: 35%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #100268;
+
+}
+
+#secComp{
+    position: absolute;
+    width: 205px;
+    height: 38px;
+    left: 6%;
+    top: 40%;
+    background: white;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #07C8A5;
+
+
+    border: 0.5px solid #07C8A5;
+    border-radius: 5px;
+
+}
+
+#secComp:hover{
+    cursor: pointer;
+    background: #07C8A5;
+    border: none;
+    color: white;
+}
+
+#openComp{
+    position: absolute;
+    width: 205px;
+    height: 38px;
+    top: 40%;
+    left: 52.5%;
+    background: white;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FBB70A;
+
+
+    border: 0.5px solid #FBB70A;
+    border-radius: 5px;
+
+}
+
+#openComp:hover{
+    cursor: pointer;
+    background: #FBB70A;
+    border: none;
+    color: white;
+}
+
+#dataTitle{
+    top: 52.5%;
+    left: 6%;
+    position: absolute;
+width: 105px;
+height: 16px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+color: #100268;
+}
+
+#textInputButton{
+    position: absolute;
+    width: 205px;
+    height: 38px;
+    background: white;
+    top: 57.5%;
+    left: 6%;
+
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #07C8A5;
+
+    border: 0.5px solid #07C8A5;
+    border-radius: 5px;
+}
+
+#textInputButton:hover{
+    cursor: pointer;
+    background: #07C8A5;
+    border: none;
+    color: white;
+}
+
+#fileInputButton{
+    position: absolute;
+width: 205px;
+height: 38px;
+background: white;
+top: 57.5%;
+left: 52.5%;
+
+border: 0.5px solid #FBB70A;
+border-radius: 5px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FBB70A;
+
+}
+
+#fileInputButton:hover{
+    cursor: pointer;
+    background: #FBB70A;
+    border: none;
+    color: white;
+}
+
+#nextButton{
+    position: absolute;
+    top:75%;
+    left: 6%;
+width: 443px;
+height: 46px;
+border: none;
+
+background: #0B35CA;
+border-radius: 5px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#nextButton:hover{
+    cursor: pointer;
+    background: #0e40f7;
+}
+
+#close{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 5%;
+    left: 90%;
+}
+
+#compCreComplete{
+    position: absolute;
+    width: 40%;
+    height: 390px;
+    top: 20%;
+    left: 30%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: none;
+}
+
+#compCompleteLogo{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 15%;
+    left: 40%;
+}
+
+#compCompleteTitle{
+    position: absolute;
+left: 15%;
+right: 18.97%;
+top: 47.44%;
+bottom: 44.47%;
+width: 70%;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #100268;
+}
+
+#compCompleteText{
+    position: absolute;
+left: 7.47%;
+right: 7.66%;
+top: 58.76%;
+bottom: 32.61%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+
+color: #100268;
+}
+
+#doneButton{
+    position: absolute;
+    left: 11.11%;
+    right: 10.92%;
+    top: 79.25%;
+    bottom: 10.78%;
+    width:77.78%;
+
+    background: #07C8A5;
+    border-radius: 5px;
+}
+
+#databaseEntry4{
+    position: absolute;
+    width: 40%;
+    height: 490px;
+    top: 20%;
+    left: 30%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    display:none;
+}
+
+#entryHead{
+    position: absolute;
+    left: 32.95%;
+    right: 33.14%;
+    top: 6.89%;
+    bottom: 87.52%;
+    width: 35%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+}
+
+#entryName{
+    position: absolute;
+    left: 20.88%;
+    right: 53.26%;
+    top: 18.62%;
+    bottom: 77.28%;
+    width: 30%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+}
+#customerEntry{
+    position: absolute;
+left: 56.32%;
+right: 7.47%;
+top: 18.25%;
+bottom: 75.23%;
+width: 35%;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+background: #100268;
+border-radius: 2px;
+border: none;
+}
+
+#entryDate{
+    position: absolute;
+    left: 19.07%;
+    right: 62.84%;
+    top: 22.72%;
+    bottom: 74.67%;
+    width: 25%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+}
+
+#userPic{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    left: 8.24%;
+    right: 84.1%;
+    top: 18.25%;
+    bottom: 74.3%;
+    border-radius: 100%;
+}
+
+#entryAddress{
+    position: absolute;
+left: 8.24%;
+right: 81.42%;
+top: 32.77%;
+bottom: 64.25%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+color: #100268;
+
+}
+
+#entryAddressInput{
+    position: absolute;
+left: 8.24%;
+right: 6.9%;
+top: 38.18%;
+bottom: 54.75%;
+width: 83%;
+
+border: 0.5px solid #100268;
+border-radius: 5px;
+text-indent: 5%;
+}
+
+#entryPhone{
+    position: absolute;
+    left: 8.24%;
+    right: 72.8%;
+    top: 49.91%;
+    bottom: 47.11%;
+    width: 20%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #100268;
+}
+
+#entryPhoneInput{
+    position: absolute;
+    left: 8.24%;
+    right: 50.57%;
+    top: 54.75%;
+    bottom: 38.18%;
+    width: 40%;
+
+    border: 0.5px solid #100268;
+    border-radius: 5px;
+    text-indent: 5%;
+}
+
+#entryEmergency{
+    position: absolute;
+left: 51.92%;
+right: 14.94%;
+top: 49.91%;
+bottom: 47.11%;
+width: 35%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+color: #100268;
+}
+
+#entryEmergencyInput{
+    position: absolute;
+left: 51.92%;
+right: 6.9%;
+top: 54.75%;
+bottom: 38.18%;
+width: 40%;
+
+border: 0.5px solid #100268;
+border-radius: 5px;
+text-indent: 5%;
+}
+
+#entryBottomTitle{
+    position: absolute;
+left: 8.24%;
+right: 14.56%;
+top: 67.6%;
+bottom: 29.42%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+color: #100268;
+
+}
+
+#entryBottomInput{
+    position: absolute;
+left: 8.24%;
+right: 6.9%;
+top: 73.56%;
+bottom: 18.62%;
+width: 83%;
+
+border: 0.5px solid #100268;
+border-radius: 5px;
+text-indent: 5%;
+}
+
+#closeData{
+    position: absolute;
+left: 8.24%;
+right: 6.9%;
+top: 85.66%;
+bottom: 6.7%;
+width: 83%;
+
+background: #0B35CA;
+border-radius: 5px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+border: none;
+}
+
+#closeData:hover{
+    cursor: pointer;
+    background: #0e41f7;
+}
+
+#destination{
+    position: absolute;
+    width: 40%;
+    height: 490px;
+    top: 20%;
+    left: 30%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    display:none;
+}
+
+#destinationLogo{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 15%;
+    left: 40%;
+}
+
+#destTitle{
+    position: absolute;
+width: 75%;
+left: 12.5%;
+top: 40%;
+height: 30px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #100268;
+
+}
+
+#destText{
+    position: absolute;
+width: 80%;
+top: 50%;
+left: 10%;
+height: 32px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+
+color: #100268;
+
+}
+
+#customerEntrySheet{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 60%;
+}
+
+#productSalesSheet{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 72.5%;
+}
+
+#medicalSupplySheet{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 85%;
+}

@@ -1,0 +1,945 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+body{
+    scroll-behavior: smooth;
+    width: 1280px;
+    height: 762px;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+
+input {
+    outline: none;
+}
+
+.container{
+    background-color: white;
+    width: 1280px;
+    height: 762px;
+}
+
+.left{
+    position: absolute;
+    width: 308px;
+    height: 762px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(180deg, #0D0155 0%, #0B35CA 100%)
+}
+#logo{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 72px;
+    top: 41px;
+}
+
+#universal{
+    position: absolute;
+    width: 84px;
+    height: 27px;
+    left: 125px;
+    top: 38px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+#org{
+    position: absolute;
+    width: 98px;
+    height: 14px;
+    left: 125px;
+    top: 63px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+#activity{
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    left: 93px;
+    top: 137px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+#activity1{
+    position: absolute;
+    width: 271px;
+    height: 49px;
+    left: 18px;
+    top: 125px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    border:none;
+    outline: none;
+}
+#system{
+    position: absolute;
+    width: 102px;
+    height: 24px;
+    left: 93px;
+    top: 201px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.75);
+
+}
+
+#database{
+    position: absolute;
+    width: 79px;
+    height: 24px;
+    left: 94px;
+    top: 265px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);    
+}
+
+#employeeList{
+    position: absolute;
+    width: 108px;
+    height: 24px;
+    left: 93px;
+    top: 329px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);    
+}
+
+#customers{
+    position: absolute;
+    width: 88px;
+    height: 24px;
+    left: 93px;
+    top: 393px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+#vincent{
+    position: absolute;
+    width: 155px;
+    height: 27px;
+    left: 108px;
+    top: 687px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#admin{
+    position: absolute;
+    width: 137px;
+    height: 16px;
+    left: 109px;
+    top: 717px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#activityImage1{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 52px;
+    top: 140px;
+}
+
+
+#activityImage2{
+    position: absolute;
+    width: 30px;
+    height: 17.5px;
+    left: 234px;
+    top: 141px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#sysimg{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 52px;
+    top: 204px;
+}
+
+
+#dataimg{
+    position: absolute;
+    left: 52px;
+    right: 94.53%;
+    top: 35.17%;
+    bottom: 62.47%;
+}
+
+
+#employeeimg{
+    position: absolute;
+    left: 52px;
+    right: 94.53%;
+    top: 43.57%;
+    bottom: 54.07%;
+}
+
+
+#customersimg{
+    position: absolute;
+    left: 52px;
+    right: 94.53%;
+    top: 51.84%;
+    bottom: 45.8%;
+}
+
+#profileimg{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 44px;
+    top: 686px;
+}
+
+
+#administrative{
+    position: absolute;
+    width: 185px;
+    height: 24px;
+    left: 415px;
+    top: 19px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    color: #100268;
+}
+#middle{
+    position: absolute;
+    width: 902px;
+    height: 322px;
+    left: 340px;
+    top: 172px;
+
+    background: #100268;
+    border-radius: 5px;
+}
+#rightTop{
+    position: absolute;
+    width: 863px;
+    height: 49px;
+    left: 358px;
+    top: 239px;
+    
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+}
+#rightBottom{
+    position: absolute;
+    width: 863px;
+    height: 49px;
+    left: 358px;
+    top: 360px;
+    
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+}
+#fullName{
+    position: absolute;
+    width: 93px;
+    height: 27px;
+    left: 378px;
+    top: 52px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#cusentdb{
+    position: absolute;
+    width: 237px;
+    height: 27px;
+    left: 340px;
+    top: 117px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #100268;
+}
+#middle1{
+    position: absolute;
+    width: 902px;
+    height: 55px;
+    left: 340px;
+    top: 170px;
+    
+    background: #0B35CA;
+    border-radius: 5px;
+}
+#greg1{
+    position: absolute;
+    width: 135px;
+    height: 22px;
+    left: 432px;
+    top: 179px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#date1{
+    position: absolute;
+    width: 84px;
+    height: 14px;
+    left: 433px;
+    top: 201px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#req1{
+    position: absolute;
+    width: 184px;
+    height: 16px;
+    left: 670px;
+    top: 188px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    
+    color: #FFFFFF
+}
+#flu1{
+    position: absolute;
+    width: 220px;
+    height: 16px;
+    left: 925px;
+    top: 188px;
+    
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#middle2{
+    position: absolute;
+    width: 902px;
+    height: 55px;
+    left: 340px;
+    top: 243px;
+    
+    background: #100268;
+    border-radius: 5px;
+}
+#greg2{
+    position: absolute;
+    width: 135px;
+    height: 22px;
+    left: 432px;
+    top: 252px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#date2{
+    position: absolute;
+    width: 84px;
+    height: 14px;
+    left: 433px;
+    top: 274px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#req2{
+    position: absolute;
+    width: 184px;
+    height: 16px;
+    left: 670px;
+    top: 261px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#flu2{
+    position: absolute;
+    width: 220px;
+    height: 16px;
+    left: 925px;
+    top: 261px;
+    
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#middle3{
+    position: absolute;
+    width: 902px;
+    height: 55px;
+    left: 340px;
+    top: 314px;
+    
+    background: #0B35CA;
+    border-radius: 5px;
+}
+#greg3{
+    position: absolute;
+    width: 135px;
+    height: 22px;
+    left: 432px;
+    top: 323px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#date3{
+    position: absolute;
+    width: 84px;
+    height: 14px;
+    left: 433px;
+    top: 345px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#req3{
+    position: absolute;
+    width: 184px;
+    height: 16px;
+    left: 670px;
+    top: 332px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#flu3{
+    position: absolute;
+    width: 220px;
+    height: 16px;
+    left: 925px;
+    top: 332px;
+    
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#middle4{
+    position: absolute;
+    width: 902px;
+    height: 55px;
+    left: 340px;
+    top: 386px;
+    
+    background: #100268;
+    border-radius: 5px;
+}
+#greg4{
+    position: absolute;
+    width: 135px;
+    height: 22px;
+    left: 432px;
+    top: 395px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+#date4{
+    position: absolute;
+    width: 84px;
+    height: 14px;
+    left: 433px;
+    top: 417px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#req4{
+    position: absolute;
+    width: 184px;
+    height: 16px;
+    left: 670px;
+    top: 404px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+#flu4{
+    position: absolute;
+    width: 220px;
+    height: 16px;
+    left: 925px;
+    top: 404px;
+    
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#databaseEntry4{
+    position: absolute;
+    width: 40%;
+    height: 490px;
+    top: 20%;
+    left: 30%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    display:none;
+}
+
+#entryHead{
+    position: absolute;
+    left: 32.95%;
+    right: 33.14%;
+    top: 6.89%;
+    bottom: 87.52%;
+    width: 35%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+}
+
+#entryName{
+    position: absolute;
+    left: 20.88%;
+    right: 53.26%;
+    top: 18.62%;
+    bottom: 77.28%;
+    width: 30%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+}
+#customerEntry{
+    position: absolute;
+left: 56.32%;
+right: 7.47%;
+top: 18.25%;
+bottom: 75.23%;
+width: 35%;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+background: #100268;
+border-radius: 2px;
+border: none;
+}
+
+#entryDate{
+    position: absolute;
+    left: 19.07%;
+    right: 62.84%;
+    top: 22.72%;
+    bottom: 74.67%;
+    width: 25%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+}
+
+#userPic{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    left: 8.24%;
+    right: 84.1%;
+    top: 18.25%;
+    bottom: 74.3%;
+    border-radius: 100%;
+}
+
+#entryAddress{
+    position: absolute;
+left: 8.24%;
+right: 81.42%;
+top: 32.77%;
+bottom: 64.25%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+color: #100268;
+
+}
+
+#entryAddressInput{
+    position: absolute;
+left: 8.24%;
+right: 6.9%;
+top: 38.18%;
+bottom: 54.75%;
+width: 83%;
+
+border: 0.5px solid #100268;
+border-radius: 5px;
+text-indent: 5%;
+}
+
+#entryPhone{
+    position: absolute;
+    left: 8.24%;
+    right: 72.8%;
+    top: 49.91%;
+    bottom: 47.11%;
+    width: 20%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #100268;
+}
+
+#entryPhoneInput{
+    position: absolute;
+    left: 8.24%;
+    right: 50.57%;
+    top: 54.75%;
+    bottom: 38.18%;
+    width: 40%;
+
+    border: 0.5px solid #100268;
+    border-radius: 5px;
+    text-indent: 5%;
+}
+
+#entryEmergency{
+    position: absolute;
+left: 51.92%;
+right: 14.94%;
+top: 49.91%;
+bottom: 47.11%;
+width: 35%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+color: #100268;
+}
+
+#entryEmergencyInput{
+    position: absolute;
+left: 51.92%;
+right: 6.9%;
+top: 54.75%;
+bottom: 38.18%;
+width: 40%;
+
+border: 0.5px solid #100268;
+border-radius: 5px;
+text-indent: 5%;
+}
+
+#entryBottomTitle{
+    position: absolute;
+left: 8.24%;
+right: 14.56%;
+top: 67.6%;
+bottom: 29.42%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+color: #100268;
+
+}
+
+#entryBottomInput{
+    position: absolute;
+left: 8.24%;
+right: 6.9%;
+top: 73.56%;
+bottom: 18.62%;
+width: 83%;
+
+border: 0.5px solid #100268;
+border-radius: 5px;
+text-indent: 5%;
+}
+
+#closeData{
+    position: absolute;
+left: 8.24%;
+right: 6.9%;
+top: 85.66%;
+bottom: 6.7%;
+width: 83%;
+
+background: #0B35CA;
+border-radius: 5px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+border: none;
+}
+
+#closeData:hover{
+    cursor: pointer;
+    background: #0e41f7;
+}
