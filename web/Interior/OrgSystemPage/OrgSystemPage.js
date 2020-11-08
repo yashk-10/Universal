@@ -4,7 +4,33 @@ var compDetails = document.getElementById('compDetails');
 var compCreComplete = document.getElementById('compCreComplete');
 var right = document.getElementById("right");
 
+function onLoadState(){
+    var docRef = db.collection("middle").doc("states");
+    docRef.get().then(function(doc) {
+        if (doc.exists) {
+            if (doc.data().componentOn == true) {
+                compCreComplete.style.display = 'none';
+                blurBox.style.display = 'block';
+                document.getElementById('cusIntComp').style.display = "none";
+                document.getElementById('cusEntry').style.display = "block";
+                document.getElementById('accessDB').style.display = 'block';
+            } else {
+                document.getElementById('cusIntComp').style.display = 'block';
+                document.getElementById('cusEntry').style.display = "none";
+                document.getElementById('accessDB').style.display = 'none';
+            }
+        } else {
+            // doc.data() will be undefined in this case
+            console.log("No such document!");
+        }
+    }).catch(function(error) {
+        console.log("Error getting document:", error);
+    });
+}
 
+function goToActivity(){
+    window.location.href = '../ActivityOrg/activityorg.html';
+}
 
 function newSystemComponent(){
     blurBox.style.display = "none";
@@ -34,6 +60,17 @@ function doneFunc(){
     document.getElementById('cusIntComp').style.display = "none";
     document.getElementById('cusEntry').style.display = "block";
     document.getElementById('accessDB').style.display = 'block';
+    db.collection("middle").doc("states").update({
+        componentOn: true
+    })
+    .then(function() {
+        console.log("Document successfully updated!");
+    })
+    .catch(function(error) {
+        // The document probably doesn't exist.
+        console.error("Error updating document: ", error);
+    });
+
 
 }
 

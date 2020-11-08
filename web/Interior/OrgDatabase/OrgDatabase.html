@@ -12,17 +12,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <title>Hello, world!</title>
   </head>
+  <body onload='onLoadState()'>
     <div id = "container" class="container">
     <div id="blurBox">
     <div id = "left" class="left">
         <h5 id = "universal"> Universal</h5>
         <h5 id = "org">For Organizations </h5> 
         <img src="saturn1.svg" id='logo'>
-        <a id = "activity" href = #>Activity Page</a>
+        <a id = "activity" href ='../ActivityOrg/activityorg.html'>Activity Page</a>
         <img src="activity1.svg" id='activityImage1'>
         <button id = "activity1" ></button>
         <img src="activity2.svg" id='activityImage2'>
-        <button id ="system">System View</button>
+        <button onclick='goToSystem()' id ="system">System View</button>
         <img src="systemView.svg" id='sysimg'>
         <button id='database'>Database</button>
         <img src="database.svg" id='dataimg'>
@@ -40,19 +41,22 @@
             <img src="settings.svg" id='settings'>
             <img src="flag.svg" id='flag'>
             <img src="topPic.svg" id='topPic'>
+            <a href='../../Bridge/Login/ChooseAcc.html'>
+                <img src='logout.svg' id='logout'>
+            </a>
             <hr class="line">
         </div>
 
 
     <div id ='right' class = 'right'>
         <h5 id = "cusentdb">Customer Entry Database</h5>
-
+        <img src='noData.svg' id='noDataImg'>
     </div>
 
     <div id = 'middle1' class="middle">
     </div>
     <div id = 'text'>
-        <button onClick="databaseInfo()">
+        <button id='blueGreg' onClick="databaseInfo()">
         <img id="greg" src="gregUnderwood.svg">
         </button>
 
@@ -98,7 +102,7 @@
         <input id="entryAddressInput" value="70 Mineola Road West, Mississauga, ON, Canada"/>
         <h1 id="entryPhone">PHONE NUMBER</h1>
         <input id="entryPhoneInput" value="647 978 3245"/>
-        <h1 id="entryEmergency">EMERGENCY CONTACT NAME</h1>
+        <h1 id="entryEmergency">EMERGENCY CONTACT NUMBER</h1>
         <input id="entryEmergencyInput" value="Jordan Underwood"/>
         <h1 id="entryBottomTitle">HAVE YOU HAD AN COVID-19 LIKE SYMPTOMS IN THE PAST 5 DAYS?</h1>
         <input id="entryBottomInput" value="Not Applicable"/>
@@ -110,5 +114,29 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         <script src="OrgDatabase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+    // Your web app's Firebase configuration
+        var firebaseConfig = {
+        apiKey: "AIzaSyCD7KZA8wKHeyoq6beiQnFETxucRMuoXLM",
+        authDomain: "universal-8aec4.firebaseapp.com",
+        databaseURL: "https://universal-8aec4.firebaseio.com",
+        projectId: "universal-8aec4",
+        storageBucket: "universal-8aec4.appspot.com",
+        messagingSenderId: "440414088827",
+        appId: "1:440414088827:web:80134724d79b2b9fbefcde"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        const auth = firebase.auth();
+        const db = firebase.firestore();
+    </script>
     </body>
 </html>

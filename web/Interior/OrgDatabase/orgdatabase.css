@@ -198,6 +198,16 @@ input {
   background: rgba(255, 255, 255, 0.15);
 }
 
+#noDataImg{
+    position: absolute;
+width: 902px;
+height: 141px;
+left: 340px;
+top: 171px;
+display: none;
+
+}
+
 #system {
   position: absolute;
   width: 271px;
@@ -485,6 +495,7 @@ input {
     
     background: #0B35CA;
     border-radius: 5px;
+    display: none;
 }
 #greg{
     position: absolute;
@@ -495,6 +506,7 @@ input {
     
     background: #0B35CA;
     border-radius: 5px;
+    display: none;
 }
 
 #greg1{
@@ -590,7 +602,7 @@ input {
     /* identical to box height */
     
     text-align: center;
-    
+    display: none;
     color: #FFFFFF;
 }
 #date2{
@@ -608,7 +620,7 @@ input {
     /* identical to box height */
     
     text-align: center;
-    
+    display: none;
     color: #FFFFFF;
 }
 #req2{
@@ -617,7 +629,7 @@ input {
     height: 16px;
     left: 670px;
     top: 261px;
-    
+    display: none;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -642,6 +654,7 @@ input {
     text-align: center;
     
     color: #FFFFFF;
+    display: none;
 }
 #middle3{
     position: absolute;
@@ -923,20 +936,22 @@ text-align: center;
 text-transform: uppercase;
 
 color: #100268;
-
 }
 
 #entryAddressInput{
     position: absolute;
-left: 8.24%;
-right: 6.9%;
-top: 38.18%;
-bottom: 54.75%;
-width: 83%;
+    left: 8.24%;
+    right: 6.9%;
+    top: 38.18%;
+    bottom: 54.75%;
+    width: 83%;
 
-border: 0.5px solid #100268;
-border-radius: 5px;
-text-indent: 5%;
+    border: 0.5px solid #100268;
+    font-family: 'Open Sans', sans-serif;
+    color: #100268;
+    border-radius: 5px;
+    text-indent: 5%;
+    
 }
 
 #entryPhone{
@@ -969,15 +984,17 @@ text-indent: 5%;
     border: 0.5px solid #100268;
     border-radius: 5px;
     text-indent: 5%;
+    font-family: 'Open Sans', sans-serif;
+    color: #100268;
 }
 
 #entryEmergency{
     position: absolute;
-left: 51.92%;
-right: 14.94%;
-top: 49.91%;
-bottom: 47.11%;
-width: 35%;
+left: 234px;
+right: 62px;
+top: 250px;
+bottom: 253px;
+width: 50%;
 
 font-family: Open Sans;
 font-style: normal;
@@ -988,6 +1005,14 @@ text-align: center;
 text-transform: uppercase;
 
 color: #100268;
+}
+
+#logout{
+    position: absolute;
+    left: 1052px;
+    right: 210px;
+    top: 22px;
+    bottom: 22px;
 }
 
 #entryEmergencyInput{
@@ -1001,6 +1026,8 @@ width: 40%;
 border: 0.5px solid #100268;
 border-radius: 5px;
 text-indent: 5%;
+font-family: 'Open Sans', sans-serif;
+color: #100268;
 }
 
 #entryBottomTitle{
@@ -1033,6 +1060,8 @@ width: 83%;
 border: 0.5px solid #100268;
 border-radius: 5px;
 text-indent: 5%;
+font-family: 'Open Sans', sans-serif;
+color: #100268;
 }
 
 #closeData{

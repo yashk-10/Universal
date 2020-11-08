@@ -12,15 +12,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <title>Hello, world!</title>
   </head>
+  <body onload='onLoadState()'>
     <div id = "container" class="container">
     <div id="blurBox">
     <div id = "left" class="left">
         <h5 id = "universal"> Universal</h5>
         <h5 id = "org">For Organizations </h5> 
         <img src="saturn1.svg" id='logo'>
-        <a id = "activity" href = #>Activity Page</a>
+        <a id = "activity" href = '../ActivityOrg/activityorg.html'>Activity Page</a>
         <img src="activity1.svg" id='activityImage1'>
-        <button id = "activity1" ></button>
+        <button onclick='goToActivity()' id = "activity1" ></button>
         <img src="activity2.svg" id='activityImage2'>
         <button id ="system">System View</button>
         <img src="systemView.svg" id='sysimg'>
@@ -146,9 +147,32 @@
 </div>
 
     </div>
-    <body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="OrgSystemPage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+// Your web app's Firebase configuration
+    var firebaseConfig = {
+    apiKey: "AIzaSyCD7KZA8wKHeyoq6beiQnFETxucRMuoXLM",
+    authDomain: "universal-8aec4.firebaseapp.com",
+    databaseURL: "https://universal-8aec4.firebaseio.com",
+    projectId: "universal-8aec4",
+    storageBucket: "universal-8aec4.appspot.com",
+    messagingSenderId: "440414088827",
+    appId: "1:440414088827:web:80134724d79b2b9fbefcde"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+</script>
   </body>
 </html>
