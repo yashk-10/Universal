@@ -1,0 +1,334 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    overflow: hidden;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+    width: 1000px;
+    height: 762px;
+    left: -0px;
+  }
+button {
+    outline: none;
+  }
+  
+input {
+    outline: none;
+    padding: 15px;
+  }
+  
+input:focus {
+    border: 1px solid #0b35ca;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 3px rgba(11, 53, 202, 0.1);
+  }
+  
+
+#bottomDiv{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top:91.5%;
+    left: 0%;
+    background: linear-gradient(180deg, #0A0141 0%, #100268 95.83%);
+}
+
+
+#activity{
+    position: absolute;
+    left: 9.93%;
+    right: 80.15%;
+    top: 58.11%;
+    bottom: 21.62%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#activityLogo{
+    position: absolute;
+    left: 12.59%;
+    right: 82.57%;
+    top: 22.97%;
+    bottom: 50%;
+
+}
+
+#yourData1{
+    position: absolute;
+    left: 28.5%;
+    right: 56.66%;
+    top: 58.11%;
+    bottom: 21.62%;
+    width: 75px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#yourDataLogo{
+    position: absolute;
+    left: 35.11%;
+    right: 60.05%;
+    top: 22.97%;
+    bottom: 50%;
+
+}
+
+#requests{
+    position: absolute;
+    left: 57.14%;
+    right: 31.72%;
+    top: 58.11%;
+    bottom: 21.62%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    color: white;
+}
+
+#requestsLogo{
+
+    position: absolute;
+    left: 60.77%;
+    right: 34.87%;
+    top: 22.97%;
+    bottom: 50%;
+}
+
+#settings{
+    position: absolute;
+    left: 78.93%;
+    right: 11.38%;
+    top: 56.76%;
+    bottom: 22.97%;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#settingsLogo{
+    position: absolute;
+    left: 81.6%;
+    right: 13.56%;
+    top: 21.62%;
+    bottom: 51.35%;
+}
+#yes{
+
+    position: absolute;
+    width: 33px;
+    height: 27px;
+    left: 97px;
+    top: 243px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+/* identical to box height */
+
+
+    color: #07C8A5;
+    position: absolute;
+    width: 165px;
+    height: 38px;
+    left: 31px;
+    top: 237px;
+    
+    border: 1px solid #07C8A5;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#yes:hover{
+    cursor: pointer;
+    color: white;
+    background: #07C8A5;
+    border: none;
+}
+#no{
+    position: absolute;
+    width: 25px;
+    height: 27px;
+    left: 288px;
+    top: 243px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    color: #C80735;
+    position: absolute;
+    width: 165px;
+    height: 38px;
+    left: 218px;
+    top: 237px;
+
+    border: 1px solid #C80735;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#no:hover{
+    cursor: pointer;
+    color: white;
+    background: #C80735;
+    border: none;
+    
+}
+
+#submit{
+    position: absolute;
+    width: 66px;
+    height: 27px;
+    left: 170px;
+    top: 607px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    position: absolute;
+    width: 352px;
+    height: 43px;
+    left: 31px;
+    top: 599px;
+
+    background: #07C8A5;
+    border-radius: 5px;
+}
+
+#symptomsInput{
+    position: absolute;
+    width: 352px;
+    height: 293px;
+    left: 31px;
+    top: 291px;
+
+    border: 1px solid #100268;
+    border-radius: 5px;
+}
+
+#addInfo{
+    position: absolute;
+    width: 212px;
+    height: 42px;
+    left: 31px;
+    top: 37px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #100268;
+}
+
+#addInfoQ1{
+    position: absolute;
+    width: 315px;
+    height: 27px;
+    left: 98px;
+    top: 108px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    color: #100268;
+}
+
+#selfTestQ{
+    position: absolute;
+    width: 172px;
+    height: 16px;
+    left: 98px;
+    top: 135px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #100268;
+
+}
+
+#experiencingSymptoms{
+    position: absolute;
+    width: 347px;
+    height: 32px;
+    left: 31px;
+    top: 191px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #100268;
+
+}
+
+#covidSymbol{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 31px;
+    top: 110px;
+}
