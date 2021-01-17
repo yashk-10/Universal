@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="EmployeeSignUp.css">
+    <title>Hackathon</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logo" src="logo.svg" alt="Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#">Features</a></li>
+                <li><a class="nav-link" href="#">Use Cases</a></li>
+                <li><a class="nav-link" href="#">Pricing</a></li>
+                <li><a class="nav-link" href="#">About Us</a></li>
+
+            </ul>
+        </nav>
+        <div class="login">
+            <a href="#"><button class="btn-login">Login</button></a>
+            <a href="#"><button class="btn-signup">Sign Up</button></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="left-container">
+                <div class="text-container">
+                    <h6 class="subtext">
+                        SIGN UP AS AN EMPLOYEE
+                                        </h6>
+                    <h1 class="main-text">
+                        Helping you 
+help  <br><span style="font-weight: 800;">your company.</span> 
+                    </h1>
+                    <h6 class="text">
+                        Universal is a information transfer and management platform that helps you trade the old ways of storing information like shift sign-ins and production updates for a <span style="font-weight: 800;">fully digitalized,</span> secure and <span style="font-weight: 800;">contact-less software.</span>
+                    </h6>
+
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="right-textcontainer">
+                    <h3 class="form-text">The World of <span style="font-weight: 800;">Universal</span></h3>
+                    <h5 class="form-intro">Welcome yourself to a whole new world of information access and transfer - all with the power of Universal.</h5>
+                </div>
+
+                <div class="form-container">
+                    <label class="emp-email"><b>EMAIL ADDRESS</b></label>
+                    <input id="inputemail" type="email" required>
+                <div class="pass">
+                    <label class="emp-password"><b>PASSWORD</b></label>
+                    <input id="inputpassword" type="password" required>
+
+                    <label class="emp-cfnpassword"><b>CONFIRM PASSWORD</b></label>
+                    <input class="inputcfnpassword" type="password"  required>
+
+                </div>
+                    
+                    <label class="emp-org"><b>ORGANIZATION CODE</b></label>
+                    <input class="inputorg" type="password"  required>
+                        
+                    <button class="signup" type="emp-submit" >Sign up for Universal <span style="font-weight: 800;">- It’s free </span></button>
+                    <a class="emp-login" href="#">Already have an account? <span style="font-weight: 800;">Log in.</span></a>
+                  </div>
+            </div>
+        </div> 
+    </main>  
+        <script src="EmployeeSignUp.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCD7KZA8wKHeyoq6beiQnFETxucRMuoXLM",
+    authDomain: "universal-8aec4.firebaseapp.com",
+    databaseURL: "https://universal-8aec4.firebaseio.com",
+    projectId: "universal-8aec4",
+    storageBucket: "universal-8aec4.appspot.com",
+    messagingSenderId: "440414088827",
+    appId: "1:440414088827:web:80134724d79b2b9fbefcde"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  const auth = firebase.auth();
+</script>
+</body>
+</html>

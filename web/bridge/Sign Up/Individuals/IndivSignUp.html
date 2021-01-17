@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="IndivSignUp.css">
+    <title>Hackathon</title>
+</head>
+<body>
+    <header>
+        <div id="logo-container" class="logo-container">
+            <img id="logo" class="logo" src="logo.svg" alt="Logo">
+        </div>
+        <nav>
+            <ul id="nav-links"  class="nav-links">
+                <li><a id="nav-link" class="nav-link" href="#">Features</a></li>
+                <li><a id="nav-link"  class="nav-link" href="#">Use Cases</a></li>
+                <li><a id="nav-link"  class="nav-link" href="#">Pricing</a></li>
+                <li><a id="nav-link"  class="nav-link" href="#">About Us</a></li>
+
+            </ul>
+        </nav>
+        <div id="login" class="login">
+            <a href="#"><button id="btn-login" class="btn-login">Login</button></a>
+            <a href="#"><button id="btn-signup" class="btn-signup">Sign Up</button></a>
+        </div>
+    </header>
+
+    <main>
+        <div id="main-container" class="main-container">
+            <div id="left-container" class="left-container">
+                <div id="text-container" class="text-container">
+                    <h6 id="subtext" class="subtext">
+                        SIGN UP AS AN INDIVIDUAL
+                    </h6>
+                    <h1 id="main-text" class="main-text">
+                        Information Transfer <br><span style="font-weight: 800;">- just like that.</span> 
+                    </h1>
+                    <h6 id="text" class="text">
+                        Universal is a information transfer and management platform that helps you trade the <span style="font-weight: 800;">old ways of filling out forms</span> and showing your ID for a software dedicated to helping access and transfer your information <span style="font-weight: 800;">in an instant.</span>
+                    </h6>
+                    <img id='appleStore' src='appleStore.svg'>
+                    <img id='googlePlay' src='googlePlay.svg'>
+                </div>
+            </div>
+            <div id="right-container" class="right-container">
+                <div id="right-textcontainer" class="right-textcontainer">
+                    <h3 id="form-text" class="form-text">The World of <span style="font-weight: 800;">Universal</span></h3>
+                    <h5 id="form-intro" class="form-intro">Open your organization to a whole new world of information access and transfer - all with the power of Universal.</h5>
+                </div>
+
+                <div id="form-container" class="form-container">
+                    <label id="indiv-email" class="indiv-email"><b>Email</b></label>
+                    <input id="inputemail" class="inputemail" type="email" required>
+                
+                    <label id="indiv-password" class="indiv-password"><b>Password</b></label>
+                    <input id="inputpassword" class="inputpassword" type="password" required>
+
+                    <label id="indiv-cfnpassword" class="indiv-cfnpassword"><b>Confirm Password</b></label>
+                    <input id="inputcfnpassword" class="inputcfnpassword" type="password"  required>
+                        
+                    <button id="signup" class="signup" type="indiv-submit">Sign up for Universal <span style="font-weight: 800;">- It’s free </span></button>
+                    <a id="indiv-login" class="indiv-login" href="#">Already have an account? <span style="font-weight: 800;">Log in.</span></a>
+                  </div>
+            </div>
+        </div> 
+    </main>  
+        <script src="script.js"></script>
+</body>
+</html>
